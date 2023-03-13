@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <input id='anime_search' type='search' value='' required placeholder="Digite um anime">
-  <button id='submit'>Pesquisar</button>
-  <script src="script.js"></script>
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <div class=app>
+      <div class=search>
+        <input id='anime_search' type='search' value='' required placeholder="Digite um anime">
+        <button id='submit' type="submit"><i class="fa fa-search"></i></button>
+        <span id='image_link'></span>
+        <script src="script.js"></script>
+      </div>
+      <div class=container></div>
+    </div>
+  </body>
 </html>
