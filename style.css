@@ -1,7 +1,14 @@
-html {
+html
+{
   height: 100%;
   width: 100%;
   background: #1E1E1E;
+}
+
+body
+{
+  height: 95%;
+  width: 95%;
 }
 
 #anime_search
@@ -24,21 +31,166 @@ html {
   cursor: pointer;
 }
 
+#title
+{
+  position: absolute;
+  margin-left: 15px;
+  margin-right: 30px;
+  margin-top: 350px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+#coverImage
+{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 330px;
+  width: 230px;
+  border-radius: 10px;
+}
+
+#episodesTitle
+{
+  position: absolute;
+  left: 250px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+#episodesNumber
+{
+  position: absolute;
+  left: 250px;
+  top: 25px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+#formatTitle
+{
+  position: absolute;
+  left: 250px;
+  top: 70px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+#formatElement
+{
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+#streamingsTitle
+{
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+
+#streaming
+{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+#streamingIcon
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.app
+{
+  height: 100%;
+  width: 100%;
+}
+
 .search
 {
   position: absolute;
-  left: 400px;
+  left: 600px;
   top: 36px;
 }
 
 .container
 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   position: absolute;
-  width: 1300px;
-  height: 800px;
-  left: 70px;
+  left: 100px;
   top: 100px;
-  
+  align-content: center;
   background: #353535;
   border-radius: 10px;
+}
+
+.card
+{
+  position: relative;
+  width: 400px;
+  height: 460px;
+  margin: 10px;
+  margin-bottom: 30px;
+  top: 20px;
+  border-radius: 10px;
+  background: #414141;
+  
+}
+
+.cardInfo
+{
+  position: absolute;
+  height: 326px;
+  width: 230px;
+}
+
+.streamings
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: absolute;
+  margin: 5px;
+  left: 250px;
+  top: 250px;
 }
