@@ -91,6 +91,17 @@ var menu_options =
   })
 };
 
+document.addEventListener(
+  "keypress",
+  (e) => 
+  {
+   if (e.key==='Enter')
+   {
+      let button = document.querySelector("#submit");
+      button.click();
+   }
+  });
+
 submit.addEventListener(
   'click',
   (e) =>
