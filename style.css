@@ -68,7 +68,7 @@ body
   color: #cfcfcf;
 }
 
-#episodesNumber
+#episodesElement
 {
   position: absolute;
   left: 250px;
@@ -86,7 +86,7 @@ body
 {
   position: absolute;
   left: 250px;
-  top: 70px;
+  top: 75px;
   margin-left: 5px;
   font-style: normal;
   font-weight: 400,bolder;
@@ -110,11 +110,11 @@ body
   color: #cfcfcf;
 }
 
-#streamingsTitle
+#durationTitle
 {
   position: absolute;
   left: 250px;
-  top: 200px;
+  top: 140px;
   margin-left: 5px;
   font-style: normal;
   font-weight: 400,bolder;
@@ -124,13 +124,41 @@ body
   color: #cfcfcf;
 }
 
+#durationElement
+{
+  position: absolute;
+  left: 250px;
+  top: 165px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+#streamingsTitle
+{
+  position: absolute;
+  left: 250px;
+  top: 220px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
 
 #streaming
 {
   position: relative;
   height: 30px;
   width: 30px;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 #streamingIcon
@@ -140,13 +168,26 @@ body
   border-radius: 5px;
 }
 
+#titlePage
+{
+  position: absolute;
+  left: 150px;
+  top: -30px;
+  font-style: normal;
+  font-weight: 400,bolder;
+  font-size: 60px;
+  line-height: 38px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
 .app
 {
   height: 100%;
   width: 100%;
 }
 
-.search
+.search_bar
 {
   position: absolute;
   left: 600px;
@@ -168,14 +209,13 @@ body
 .card
 {
   position: relative;
-  width: 400px;
+  width: 380px;
   height: 460px;
   margin: 10px;
   margin-bottom: 30px;
   top: 20px;
   border-radius: 10px;
   background: #414141;
-  
 }
 
 .cardInfo
@@ -192,5 +232,5 @@ body
   position: absolute;
   margin: 5px;
   left: 250px;
-  top: 250px;
+  top: 268px;
 }

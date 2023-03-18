@@ -1,3 +1,4 @@
+var check_page=''
 var submit=document.getElementById('submit');
 var url = 'https://graphql.anilist.co';
 var container=document.getElementById("container");
@@ -5,7 +6,7 @@ var menu_query =
 `
   query
   {
-    Page (page: 1,perPage: 40)
+    Page (perPage: 40)
     {
       pageInfo 
       {
@@ -15,18 +16,19 @@ var menu_query =
       }
       media (type: ANIME,isAdult: false, season: WINTER, seasonYear: 2023, sort: SCORE_DESC)
       {
+        episodes
+        format
+        duration
+        siteUrl
+        averageScore
         coverImage
         {
           large
         }
-        episodes
-        format
         title
         {
-          romaji,
-          english
+          romaji
         }
-        siteUrl
         externalLinks
         {
           site,
@@ -38,9 +40,9 @@ var menu_query =
 `;
 var query =
 `
-  query ($id: Int, $page: Int, $perPage: Int, $search: String) 
+  query ($search: String) 
   {
-    Page (page: $page, perPage: $perPage) 
+    Page (perPage: 40) 
     {
       pageInfo
       {
@@ -51,21 +53,24 @@ var query =
         perPage
       }
 
-      media (id: $id, search: $search)
+       media (type: ANIME,isAdult: false, search: $search)
       {
+        episodes
+        format
+        duration
+        siteUrl
+        averageScore
         coverImage
         {
           large
         }
-        format
-        id
         title
         {
-          romaji,
-          english
+          romaji
         }
         externalLinks
         {
+          site,
           url
         }
       }
@@ -91,6 +96,8 @@ submit.addEventListener(
   (e) =>
   {
     e.preventDefault();
+    //window.location='search.html';
+    document.querySelectorAll('.card').forEach(e => e.remove());
     var variables={'search':anime_search.value};
     var options = 
     {
@@ -106,7 +113,7 @@ submit.addEventListener(
         variables: variables
       })
     };
-    request_API(url,options,true)
+    request_API(url,options,true);
   });
 
 function check_Links(links,type_Titles)
@@ -141,31 +148,19 @@ function handleResponse(response)
 
 function handleData(data) 
 {
-  var infos=data['data']['Page']['media'];
-  var out=['MANGA','ONE_SHOT','NOVEL','MUSIC'];
-  for (var value in infos)
+  let mediaInfo=data['data']['Page']['media'];
+  
+  for (let value in mediaInfo)
   {
-    var elem=infos[value];
-    var form=elem['format'];
-    if (!(out.includes(form)) && !(elem['genres'].includes("Hentai")))
-    {
-      let image = elem['coverImage']['large'];
-      document.getElementById('image_link').innerHTML = "<img src="+image+">";
-      var romaji = elem['title']['romaji'];
-      var english = elem['title']['english'];
-      console.log(image)
-      console.log('Nome:', romaji);
-      console.log('Alternativo:', english);
-      console.log('Gêneros:', elem['genres']);
-      console.log('Formato:',form);
-      for (links in elem['externalLinks'])
-      {
-        console.log('Links:',elem['externalLinks'][links]['url']);
-      }
-      /*
-      streamings = checkLinks(elem['externalLinks'],[romaji,english]);
-      */
-    }
+    let elem=mediaInfo[value];
+    let episodes=elem['episodes'];
+    let format=elem['format'];
+    let duration=elem['duration'];
+    let image=elem['coverImage']['large'];
+    let romaji=elem['title']['romaji'];
+    let externalLinks=elem['externalLinks'];
+    let anilistUrl=elem['siteUrl'];
+    add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration);
   }
 }
 
@@ -200,6 +195,8 @@ function nodeFactory(type,content,name)
 
     else if (type=='div')
     {
+      if (content=='carda')
+        console.log(content);
       node.className=content;
       return node;
     }
@@ -209,24 +206,24 @@ function nodeFactory(type,content,name)
       return -1;
 }
 
-function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format)
+function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration)
 {
-  let listStreamings=['Crunchyroll','Netflix','Disney Plus','Star+','HBO Max','Amazon'];
-  let card=document.createElement('div');
+  let card=nodeFactory('div','card');
   let imgElement=nodeFactory('img',image,'coverImage');
   let imgUrl=nodeFactory('a','anilistUrl');
   let titleElement=nodeFactory('p',romaji,'title');
   let streamingsTitle=nodeFactory('p','Streamings:','streamingsTitle');
   let episodesTitle=nodeFactory('p','Episódios:','episodesTitle');
-  let episodesNumber=nodeFactory('p',episodes,'episodesNumber');
+  let episodesElement=nodeFactory('p',episodes,'episodesElement');
   let formatTitle=nodeFactory('p','Formato:','formatTitle');
   let formatElement=nodeFactory('p',format,'formatElement');
+  let durationTitle=nodeFactory('p','Duração:','durationTitle');
+  let durationElement=nodeFactory('p',duration+'min','durationElement');
   let streamings=nodeFactory('div','streamings');
   let cardInfo=nodeFactory('div','cardInfo');
   imgUrl.href=anilistUrl;
   imgUrl.target='_blank';
-  card.className='card';
-  card.id='card';
+  
   
   for (let linkInfo in externalLinks)
   {
@@ -301,11 +298,14 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format)
       streamings.appendChild(streamingsElement);
     }
   }
+  
   imgUrl.appendChild(imgElement);
   cardInfo.appendChild(episodesTitle);
-  cardInfo.appendChild(episodesNumber);
+  cardInfo.appendChild(episodesElement);
   cardInfo.appendChild(formatTitle);
   cardInfo.appendChild(formatElement);
+  cardInfo.appendChild(durationTitle);
+  cardInfo.appendChild(durationElement);
   cardInfo.appendChild(streamingsTitle);
   cardInfo.appendChild(streamings);
   card.appendChild(cardInfo);
@@ -326,19 +326,22 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format)
 function menu_handleData(data)
 {
   let mediaInfo=data['data']['Page']['media'];
-  //let pageInfo=data['data']['Page']['pageInfo'];
   
   for (let value in mediaInfo)
   {
     let elem=mediaInfo[value];
     let episodes=elem['episodes'];
     let format=elem['format'];
+    let duration=elem['duration'];
+    let averageScore=elem['averageScore'];
     let image=elem['coverImage']['large'];
     let romaji=elem['title']['romaji'];
     let externalLinks=elem['externalLinks'];
     let anilistUrl=elem['siteUrl'];
-    add_Card(image,romaji,externalLinks,anilistUrl,episodes,format);
+    add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration,averageScore);
   }
 }
 
-request_API(url,menu_options,false);
+check_page=document.querySelector('.app');
+if (check_page.id=='index')
+  request_API(url,menu_options,false);
