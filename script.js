@@ -1,8 +1,7 @@
-var check_page=''
 var submit=document.getElementById('submit');
-var url = 'https://graphql.anilist.co';
 var container=document.getElementById("container");
-var menu_query =
+const url = 'https://graphql.anilist.co';
+const menu_query =
 `
   query
   {
@@ -38,7 +37,7 @@ var menu_query =
     }
   }
 `;
-var query =
+const query =
 `
   query ($search: String) 
   {
@@ -107,7 +106,6 @@ submit.addEventListener(
   (e) =>
   {
     e.preventDefault();
-    //window.location='search.html';
     document.querySelectorAll('.card').forEach(e => e.remove());
     var variables={'search':anime_search.value};
     var options = 
@@ -149,12 +147,32 @@ function request_API(url,opt,search)
   }
 }
 
+function request(url)
+{
+  fetch(url).then(handleResponsehtml)
+                  .then(scrap_handleData)
+                  .catch(handleError);
+}
+
+function handleResponsehtml(response) 
+{
+  return response.html().then(function (html)
+  {
+    return response.ok ? html : Promise.reject(html);
+  });
+}
+
 function handleResponse(response) 
 {
   return response.json().then(function (json)
   {
     return response.ok ? json : Promise.reject(json);
   });
+}
+
+function scrap_handleData(data)
+{
+  console.log(data);
 }
 
 function handleData(data) 
@@ -171,6 +189,7 @@ function handleData(data)
     let romaji=elem['title']['romaji'];
     let externalLinks=elem['externalLinks'];
     let anilistUrl=elem['siteUrl'];
+    //externalLinks=checkLinks(externalLinks);
     add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration);
   }
 }
@@ -244,7 +263,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
     
     if (linkName=='Crunchyroll')
     {
-      let streamingIcon=nodeFactory('img','https://m.media-amazon.com/images/I/417bVUqe0pL.png','streamingIcon');
+      let streamingIcon=nodeFactory('img','Icons/crunchyrollIcon.png','streamingIcon');
       let streamingsElement=nodeFactory('a','streaming');
       streamingIcon.name='Crunchyroll';
       streamingsElement.href=link;
@@ -255,7 +274,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
       
     else if (linkName=='Netflix')
     {
-      let streamingIcon=nodeFactory('img','https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg','streamingIcon');
+      let streamingIcon=nodeFactory('img','Icons/netflixIcon.svg','streamingIcon');
       let streamingsElement=nodeFactory('a','streaming');
       streamingIcon.name='Netflix';
       streamingsElement.href=link;
@@ -266,7 +285,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
 
     else if (linkName=='Disney Plus')
     {
-      let streamingIcon=nodeFactory('img','https://cdn.worldvectorlogo.com/logos/disney--1.svg','streamingIcon');
+      let streamingIcon=nodeFactory('img','Icons/disneyplusIcon.svg','streamingIcon');
       let streamingsElement=nodeFactory('a','streaming');
       streamingIcon.name='disneyplus';
       streamingIcon.style.background="rgb(33,3,124)";
@@ -278,7 +297,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
 
     else if (linkName=='Star+')
     {
-      let streamingIcon=nodeFactory('img','https://pbs.twimg.com/profile_images/1587180153603514369/vWiLmja1_400x400.jpg','streamingIcon');
+      let streamingIcon=nodeFactory('img','Icons/starplusIcon.jpg','streamingIcon');
       let streamingsElement=nodeFactory('a','streaming');
       streamingIcon.name='starplus';
       streamingsElement.href=link;
@@ -289,7 +308,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
 
     else if (linkName=='Amazon')
     {
-      let streamingIcon=nodeFactory('img','https://img.utdstc.com/icon/8d0/5dc/8d05dcf1d6034e9b6dffbab81f64ca8e61a135cc2c738e641b081d4611ba3ca2:200','streamingIcon');
+      let streamingIcon=nodeFactory('img','Icons/primevideoIcon.webp','streamingIcon');
       let streamingsElement=nodeFactory('a','streaming');
       streamingIcon.name='amazon';
       streamingsElement.href=link;
@@ -300,7 +319,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
 
     else if (linkName=='HBO Max')
     {
-      let streamingIcon=nodeFactory('img','https://img.utdstc.com/icon/db3/ff9/db3ff9df52071ba96d884cde93221b4ea43a9516d73a2164652aa3b402e33977:200','streamingIcon');
+      let streamingIcon=nodeFactory('img','Icons/hbomaxIcon.webp','streamingIcon');
       let streamingsElement=nodeFactory('a','streaming');
       streamingIcon.name='hbomax';
       streamingsElement.href=link;
@@ -326,9 +345,9 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
 
   if (streamings.childNodes.length==0)
   {
-    let streamingIcon=nodeFactory('img','https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f625.png','streamingIcon');
+    let streamingIcon=nodeFactory('img','Icons/emojiIcon.png','streamingIcon');
     let streamingsElement=nodeFactory('a','streaming');
-    streamingIcon.name='xIcon';
+    streamingIcon.name='emojiIcon';
     streamingsElement.appendChild(streamingIcon);
     streamings.appendChild(streamingsElement);
   }
@@ -353,6 +372,4 @@ function menu_handleData(data)
   }
 }
 
-check_page=document.querySelector('.app');
-if (check_page.id=='index')
-  request_API(url,menu_options,false);
+request_API(url,menu_options,false);

@@ -1,0 +1,8 @@
+logo: https://styles.redditmedia.com/t5_55rinb/styles/communityIcon_hvct2toigvt71.png
+netflix: https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg
+disney+: https://cdn.worldvectorlogo.com/logos/disney--1.svg
+star+: https://pbs.twimg.com/profile_images/1587180153603514369/vWiLmja1_400x400.jpg;
+primevideo: https://img.utdstc.com/icon/8d0/5dc/8d05dcf1d6034e9b6dffbab81f64ca8e61a135cc2c738e641b081d4611ba3ca2:200
+hbomax: https://img.utdstc.com/icon/db3/ff9/db3ff9df52071ba96d884cde93221b4ea43a9516d73a2164652aa3b402e33977:200
+crunchyroll: https://m.media-amazon.com/images/I/417bVUqe0pL.png
+emoji:  https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f625.png
