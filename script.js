@@ -136,30 +136,15 @@ function request_API(url,opt,search)
   if (search==true)
   {
     fetch(url, opt).then(handleResponse)
-                       .then(handleData)
+                       .then(searchData)
                        .catch(handleError);
   }
   else
   {
     fetch(url, opt).then(handleResponse)
-                     .then(menu_handleData)
+                     .then(menuData)
                      .catch(handleError);
   }
-}
-
-function request(url)
-{
-  fetch(url).then(handleResponsehtml)
-                  .then(scrap_handleData)
-                  .catch(handleError);
-}
-
-function handleResponsehtml(response) 
-{
-  return response.html().then(function (html)
-  {
-    return response.ok ? html : Promise.reject(html);
-  });
 }
 
 function handleResponse(response) 
@@ -170,12 +155,7 @@ function handleResponse(response)
   });
 }
 
-function scrap_handleData(data)
-{
-  console.log(data);
-}
-
-function handleData(data) 
+function searchData(data) 
 {
   let mediaInfo=data['data']['Page']['media'];
   
@@ -353,7 +333,7 @@ function add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration
   }
 }
 
-function menu_handleData(data)
+function menuData(data)
 {
   let mediaInfo=data['data']['Page']['media'];
   
