@@ -1,5 +1,6 @@
 var submit=document.getElementById('submit');
 var container=document.getElementById("container");
+const proxy="https://cors-anywhere.herokuapp.com/"
 const url = 'https://graphql.anilist.co';
 const menu_query =
 `
@@ -125,10 +126,70 @@ submit.addEventListener(
     request_API(url,options,true);
   });
 
-function check_Links(links,type_Titles)
+function check_Links(urls,title)
 {
-  //soon
-  return 0
+  let new_urls=[];
+  
+  for (let i in urls)
+  {
+    elem=urls[i];
+    let link=elem['url'];
+    let streamingName=elem['site'];
+    if (streamingName=='Crunchyroll')
+    {
+      new_urls.push(urls[i]);
+    }
+
+    else if (streamingName=='Crunchyroll')
+    {
+      //Problem: return title Just a moment... :(
+      new_urls.push(urls[i]);
+    }
+      
+    else if (streamingName=='Star+')
+    {
+      new_urls.push(urls[i]);
+    }
+    
+    else if (streamingName=='Disney Plus' && title=='Star Wars: Visions')
+    {
+      new_urls.push(urls[i]);
+    }
+  
+    else if (streamingName=='Netflix')
+    {
+      let xhttp = new XMLHttpRequest();
+      xhttp.open("GET", proxy+link, false);
+      xhttp.send();
+      let tpl = document.createElement('template');
+      tpl.innerHTML = xhttp.responseText;
+      let fragment = tpl.content;
+      scrapTitle1=fragment.children[0]['text'];
+      scrapTitle2=fragment.children[4]['text'];
+      if (scrapTitle1==undefined && scrapTitle2!=undefined && scrapTitle2.length>7)
+        new_urls.push(urls[i]);
+    }
+      
+    else if (streamingName=='HBO Max')
+    {
+      let xhttp = new XMLHttpRequest();
+      xhttp.open("GET", proxy+link, false);
+      xhttp.send();
+      let tpl = document.createElement('template');
+      tpl.innerHTML = xhttp.responseText;
+      let fragment = tpl.content;
+      scrapTitle1=fragment.children[15]['text'];
+      scrapTitle2=fragment.children[3]['text'];
+      if (scrapTitle1==undefined && scrapTitle2!=undefined && scrapTitle2.length>7)
+        new_urls.push(urls[i]);
+    }
+
+    else if (streamingName=='Amazon')
+    {
+      new_urls.push(urls[i]);
+    }
+  }
+  return new_urls;
 }
 
 function request_API(url,opt,search)
@@ -169,7 +230,7 @@ function searchData(data)
     let romaji=elem['title']['romaji'];
     let externalLinks=elem['externalLinks'];
     let anilistUrl=elem['siteUrl'];
-    //externalLinks=checkLinks(externalLinks);
+    externalLinks=check_Links(externalLinks,romaji);
     add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration);
   }
 }
@@ -348,8 +409,10 @@ function menuData(data)
     let romaji=elem['title']['romaji'];
     let externalLinks=elem['externalLinks'];
     let anilistUrl=elem['siteUrl'];
+    //externalLinks=check_Links(externalLinks,romaji);
     add_Card(image,romaji,externalLinks,anilistUrl,episodes,format,duration,averageScore);
   }
 }
+
 
 request_API(url,menu_options,false);
