@@ -2,7 +2,6 @@ import database from '/animes.json' assert { type: 'json' };
 
 var submit = document.getElementById('submit');
 var container = document.getElementById("container");
-const proxy = "https://cors-anywhere.herokuapp.com/"
 const url = 'https://graphql.anilist.co';
 const menu_query =
   `
