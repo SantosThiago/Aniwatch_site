@@ -155,7 +155,7 @@ def json_to_csv(name,file):
     print('Arquivo transformado com nome '+df_name)
     print('\n')
 
-def csv_to_json(name,dataframe):
+def csv_to_json(title,dataframe):
     df=pd.read_csv(dataframe)
     database={}
 
@@ -165,9 +165,12 @@ def csv_to_json(name,dataframe):
         url=row['Url']
         database[i]={'Nome':name,'Streaming':streaming,'Url':url}
     json_file=json.dumps(database,indent=3)
-    
+
     with open('animes.json', 'w') as file:
         file.write(json_file)
+
+    print('Arquivo transformado com nome '+title+'.json')
+    print('\n')
 
 def unifyDataframes(name,dataframe1,dataframe2):
     data=[]

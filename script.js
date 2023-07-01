@@ -279,8 +279,6 @@ function nodeFactory(type, content, name) {
   }
 
   else if (type == 'div') {
-    if (content == 'carda')
-      console.log(content);
     node.className = content;
     return node;
   }
