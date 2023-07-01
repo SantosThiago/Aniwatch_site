@@ -1,3 +1,10 @@
 replit.nix
 .replit
 .config
+netflix.csv
+hbomax.csv
+primevideo.csv
+package-lock.json
+node_modules
+*-cleaned.csv
+*-cleaned.json

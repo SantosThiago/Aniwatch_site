@@ -1,3 +1,5 @@
+import database from '/animes.json' assert { type: 'json' };
+
 var submit = document.getElementById('submit');
 var container = document.getElementById("container");
 const proxy = "https://cors-anywhere.herokuapp.com/"
@@ -27,7 +29,8 @@ const menu_query =
         }
         title
         {
-          romaji
+          romaji,
+          english
         }
         externalLinks
         {
@@ -66,7 +69,8 @@ const query =
         }
         title
         {
-          romaji
+          romaji,
+          english
         }
         externalLinks
         {
@@ -90,6 +94,7 @@ var menu_options =
       query: menu_query
     })
 };
+
 
 document.addEventListener(
   "keypress",
@@ -123,79 +128,90 @@ submit.addEventListener(
     request_API(url, options, true);
   });
 
-function check_Links(urls, title) {
-  let new_urls = [];
+function check_Links(romaji,english) {
+  let new_urls=[]
 
-  for (let i in urls) {
-    elem = urls[i];
-    let link = elem['url'];
-    let streamingName = elem['site'];
-    if (streamingName == 'Crunchyroll') {
-      new_urls.push(urls[i]);
-    }
+  for (let i in database){
+    let elem= database[i];
+    let name=elem['Nome'];
+    let streamings=elem['Streaming'];
+    let urls=elem['Url'];
 
-    else if (streamingName == 'Crunchyroll') {
-      //Problem: return title Just a moment... :(
-      new_urls.push(urls[i]);
-    }
+    if (romaji == name || english == name){
+      if (streamings.includes(','))
+      {
+        let streamings=elem['Streaming'].split(',');
 
-    else if (streamingName == 'Star+') {
-      new_urls.push(urls[i]);
-    }
-
-    else if (streamingName == 'Disney Plus' && title == 'Star Wars: Visions') {
-      new_urls.push(urls[i]);
-    }
-
-    else if (streamingName == 'Netflix') {
-      let xhttp = new XMLHttpRequest();
-      xhttp.open("GET", proxy + link, false);
-      xhttp.send();
-      let tpl = document.createElement('template');
-      tpl.innerHTML = xhttp.responseText;
-      let fragment = tpl.content;
-      scrapTitle1 = fragment.children[0]['text'];
-      scrapTitle2 = fragment.children[4]['text'];
-      if (scrapTitle1 == undefined && scrapTitle2 != undefined && scrapTitle2.length > 7)
-        new_urls.push(urls[i]);
-    }
-
-    else if (streamingName == 'HBO Max') {
-      let xhttp = new XMLHttpRequest();
-      xhttp.open("GET", proxy + link, false);
-      xhttp.send();
-      let tpl = document.createElement('template');
-      tpl.innerHTML = xhttp.responseText;
-      let fragment = tpl.content;
-      scrapTitle1 = fragment.children[15]['text'];
-      scrapTitle2 = fragment.children[3]['text'];
-      if (scrapTitle1 == undefined && scrapTitle2 != undefined && scrapTitle2.length > 7)
-        new_urls.push(urls[i]);
-    }
-
-    else if (streamingName == 'Amazon') {
-      if (link.indexOf('primevideo') != -1) {
-        let xhttp = new XMLHttpRequest();
-        xhttp.open("GET", proxy + link, false);
-        xhttp.send();
-        response = xhttp.responseText;
-        notFound = response.indexOf("Not available");
-        if (notFound != -1)
-          new_urls.push(urls[i]);
+        streamings.forEach(function(streaming){
+          if (streaming == 'crunchyroll') {
+            if (urls.includes(',')){
+              let urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streaming)){
+                  new_urls.push(url);
+                }
+              });
+            }
+          }
+      
+          else if (streaming == 'star+') {
+            if (urls.includes(',')){
+              let urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streaming)){
+                  new_urls.push(url);
+                }
+              });
+            }
+          }
+      
+          else if (streaming== 'disneyplus') {
+            if (urls.includes(',')){
+              let urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streaming)){
+                  new_urls.push(url);
+                }
+              });
+            }
+          }
+      
+          else if (streaming == 'netflix') {
+            if (urls.includes(',')){
+              let urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streaming)){
+                  new_urls.push(url);
+                }
+              });
+            }
+          }
+      
+          else if (streaming == 'hbomax') {
+            if (urls.includes(',')){
+              let urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streaming)){
+                  new_urls.push(url);
+                }
+              });
+            }
+          }
+      
+          else if (streaming == 'primevideo') {
+            if (urls.includes(',')){
+              let urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streaming)){
+                  new_urls.push(url);
+                }
+              });
+            }
+          }
+        });
       }
-
-      else if (link.indexOf('amazon') != -1) {
-        title = title.replace(/\s/g, '%20');
-        let search = 'www.primevideo.com/search/ref=atv_nb_sr?phrase=' + title + '&ie=UTF8';
-        //console.log(search);
-        //console.log(proxy+search);
-        let xhttp = new XMLHttpRequest();
-        xhttp.open("GET", proxy + search, false);
-        xhttp.send();
-        response = xhttp.responseText;
-        console.log(response);
-
-        new_urls.push(urls[i]);
+      else{
+        new_urls.push(urls);
       }
     }
   }
@@ -231,9 +247,10 @@ function searchData(data) {
     let duration = elem['duration'];
     let image = elem['coverImage']['large'];
     let romaji = elem['title']['romaji'];
+    let english = elem['title']['english'];
     let externalLinks = elem['externalLinks'];
     let anilistUrl = elem['siteUrl'];
-    externalLinks = check_Links(externalLinks, romaji);
+    externalLinks= check_Links(romaji,english);
     add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, duration);
   }
 }
@@ -292,12 +309,8 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
   imgUrl.target = '_blank';
 
 
-  for (let linkInfo in externalLinks) {
-    let elem = externalLinks[linkInfo];
-    let link = elem['url'];
-    let linkName = elem['site'];
-
-    if (linkName == 'Crunchyroll') {
+  externalLinks.forEach(function(link) {
+    if (link.includes('crunchyroll')) {
       let streamingIcon = nodeFactory('img', 'Icons/crunchyrollIcon.png', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
       streamingIcon.name = 'Crunchyroll';
@@ -307,7 +320,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
       streamings.appendChild(streamingsElement);
     }
 
-    else if (linkName == 'Netflix') {
+    else if (link.includes('netflix')) {
       let streamingIcon = nodeFactory('img', 'Icons/netflixIcon.svg', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
       streamingIcon.name = 'Netflix';
@@ -317,7 +330,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
       streamings.appendChild(streamingsElement);
     }
 
-    else if (linkName == 'Disney Plus') {
+    else if (link.includes('disneyplus')) {
       let streamingIcon = nodeFactory('img', 'Icons/disneyplusIcon.svg', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
       streamingIcon.name = 'disneyplus';
@@ -328,7 +341,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
       streamings.appendChild(streamingsElement);
     }
 
-    else if (linkName == 'Star+') {
+    else if (link.includes('starplus')) {
       let streamingIcon = nodeFactory('img', 'Icons/starplusIcon.jpg', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
       streamingIcon.name = 'starplus';
@@ -338,7 +351,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
       streamings.appendChild(streamingsElement);
     }
 
-    else if (linkName == 'Amazon') {
+    else if (link.includes('primevideo')) {
       let streamingIcon = nodeFactory('img', 'Icons/primevideoIcon.webp', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
       streamingIcon.name = 'amazon';
@@ -348,7 +361,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
       streamings.appendChild(streamingsElement);
     }
 
-    else if (linkName == 'HBO Max') {
+    else if (link.includes('hbomax')) {
       let streamingIcon = nodeFactory('img', 'Icons/hbomaxIcon.webp', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
       streamingIcon.name = 'hbomax';
@@ -357,7 +370,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
       streamingsElement.appendChild(streamingIcon);
       streamings.appendChild(streamingsElement);
     }
-  }
+  });
 
   imgUrl.appendChild(imgElement);
   cardInfo.appendChild(episodesTitle);
@@ -393,9 +406,10 @@ function menuData(data) {
     let averageScore = elem['averageScore'];
     let image = elem['coverImage']['large'];
     let romaji = elem['title']['romaji'];
+    let english = elem['title']['english'];
     let externalLinks = elem['externalLinks'];
     let anilistUrl = elem['siteUrl'];
-    //externalLinks=check_Links(externalLinks,romaji);
+    externalLinks= check_Links(romaji,english);
     add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, duration, averageScore);
   }
 }
