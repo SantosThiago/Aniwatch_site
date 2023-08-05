@@ -477,7 +477,7 @@ function add_Card(image, romaji, Links, anilistUrl, episodes, format, duration) 
   box.appendChild(card);
 
   if (streamings.childNodes.length == 0) {
-    let streamingIcon = nodeFactory('img',Icons/emojiIcon.png', 'streamingIcon');
+    let streamingIcon = nodeFactory('img','Icons/emojiIcon.png', 'streamingIcon');
     let streamingsElement = nodeFactory('a', 'streaming');
     streamingIcon.name = 'emojiIcon';
     streamingsElement.appendChild(streamingIcon);
