@@ -1,13 +1,12 @@
 import database from '/animes.json' assert { type: 'json' };
 
 var submit = document.getElementById('submit');
-var container = document.getElementById("container");
 const url = 'https://graphql.anilist.co';
 const menu_query =
   `
   query
   {
-    Page (perPage: 40)
+    Page (perPage: 48)
     {
       pageInfo 
       {
@@ -15,7 +14,7 @@ const menu_query =
         lastPage,
         hasNextPage
       }
-      media (type: ANIME,isAdult: false, season: WINTER, seasonYear: 2023, sort: SCORE_DESC)
+      media (type: ANIME,isAdult: false, season: SUMMER, seasonYear: 2023, sort: SCORE_DESC)
       {
         episodes
         format
@@ -30,11 +29,6 @@ const menu_query =
         {
           romaji,
           english
-        }
-        externalLinks
-        {
-          site,
-          url
         }
       }
     }
@@ -55,7 +49,7 @@ const query =
         perPage
       }
 
-       media (type: ANIME,isAdult: false, search: $search)
+       media (type: ANIME,isAdult: false, search: $search, sort: TRENDING_DESC)
       {
         episodes
         format
@@ -70,11 +64,6 @@ const query =
         {
           romaji,
           english
-        }
-        externalLinks
-        {
-          site,
-          url
         }
       }
     }
@@ -94,7 +83,6 @@ var menu_options =
     })
 };
 
-
 document.addEventListener(
   "keypress",
   (e) => {
@@ -104,13 +92,44 @@ document.addEventListener(
     }
   });
 
+document.getElementById("searchButton").addEventListener("click", function() {
+  
+  document.getElementById("searchButton").style.display = "none";
+  document.getElementById("search_bar").style.display = "flex";
+  document.getElementById("close_search_bar").style.display = "flex";
+  document.getElementById("anime_search").value = '';
+  document.getElementById("logoIcon").style.marginLeft = '11px';
+});
+
+document.getElementById("close_search_bar").addEventListener("click", function() {
+  document.getElementById("searchButton").style.display = "block";
+  document.getElementById("search_bar").style.display = "none";
+  document.getElementById("close_search_bar").style.display = "none";
+  document.getElementById("logoIcon").style.marginLeft = '30px';
+});
+
 submit.addEventListener(
   'click',
   (e) => {
+    if (anime_search.value.trim() === '') {
+      e.preventDefault();
+      return;
+    }
     e.preventDefault();
-    document.querySelectorAll('.card').forEach(e => e.remove());
-    var variables = { 'search': anime_search.value };
-    var options =
+    window.location.href='search?anime='+encodeURIComponent(anime_search.value);
+    performSearch();
+  });
+
+function getSearchQueryFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const getAnimeSearch = urlParams.get('anime');
+    return getAnimeSearch;
+}
+
+function performSearch(searchQuery)
+{
+  var variables = { 'search': searchQuery };
+  var options =
     {
       method: 'POST',
       headers:
@@ -124,8 +143,8 @@ submit.addEventListener(
           variables: variables
         })
     };
-    request_API(url, options, true);
-  });
+  request_API(url, options, true);
+}
 
 function check_Links(romaji,english) {
   let new_urls=[]
@@ -135,82 +154,141 @@ function check_Links(romaji,english) {
     let name=elem['Nome'];
     let streamings=elem['Streaming'];
     let urls=elem['Url'];
+   
 
     if (romaji == name || english == name){
       if (streamings.includes(','))
       {
-        let streamings=elem['Streaming'].split(',');
-
+        streamings=elem['Streaming'].split(',');
         streamings.forEach(function(streaming){
           if (streaming == 'crunchyroll') {
-            if (urls.includes(',')){
-              let urls=elem['Url'].split(',');
-              urls.forEach(function(url){
-                if (url.includes(streaming)){
-                  new_urls.push(url);
-                }
-              });
-            }
+            urls=elem['Url'].split(',');
+            urls.forEach(function(url){
+              if (url.includes(streaming))
+                new_urls.push(url);
+            });
           }
       
           else if (streaming == 'star+') {
-            if (urls.includes(',')){
-              let urls=elem['Url'].split(',');
-              urls.forEach(function(url){
-                if (url.includes(streaming)){
-                  new_urls.push(url);
-                }
-              });
-            }
+            urls=elem['Url'].split(',');
+            urls.forEach(function(url){
+              if (url.includes(streaming))
+                new_urls.push(url);
+            });
           }
       
           else if (streaming== 'disneyplus') {
-            if (urls.includes(',')){
-              let urls=elem['Url'].split(',');
-              urls.forEach(function(url){
-                if (url.includes(streaming)){
-                  new_urls.push(url);
-                }
-              });
-            }
+            urls=elem['Url'].split(',');
+            urls.forEach(function(url){
+              if (url.includes(streaming))
+                new_urls.push(url);
+            });
           }
       
           else if (streaming == 'netflix') {
-            if (urls.includes(',')){
-              let urls=elem['Url'].split(',');
-              urls.forEach(function(url){
-                if (url.includes(streaming)){
-                  new_urls.push(url);
-                }
-              });
-            }
+            urls=elem['Url'].split(',');
+            urls.forEach(function(url){
+              if (url.includes(streaming))
+                new_urls.push(url);
+            });
           }
       
           else if (streaming == 'hbomax') {
-            if (urls.includes(',')){
-              let urls=elem['Url'].split(',');
-              urls.forEach(function(url){
-                if (url.includes(streaming)){
-                  new_urls.push(url);
-                }
-              });
-            }
+            urls=elem['Url'].split(',');
+            urls.forEach(function(url){
+              if (url.includes(streaming))
+                new_urls.push(url);
+            });
           }
       
           else if (streaming == 'primevideo') {
-            if (urls.includes(',')){
-              let urls=elem['Url'].split(',');
-              urls.forEach(function(url){
-                if (url.includes(streaming)){
-                  new_urls.push(url);
-                }
-              });
-            }
+            urls=elem['Url'].split(',');
+            urls.forEach(function(url){
+              if (url.includes(streaming))
+                new_urls.push(url);
+            });
           }
         });
       }
       else{
-        new_urls.push(urls);
+          if (streamings == 'crunchyroll') {
+            if (urls.includes(',')){
+              urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streamings)){
+                  new_urls.push(url);
+                }
+              });
+            }
+            else
+              new_urls.push(urls);
+          }
+      
+          else if (streamings == 'starplus') {
+            if (urls.includes(',')){
+              urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streamings)){
+                  new_urls.push(urls);
+                }
+              });
+            }
+            else
+              new_urls.push(urls);
+          }
+      
+          else if (streamings == 'disneyplus') {
+            if (urls.includes(',')){
+              urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streamings)){
+                  new_urls.push(url);
+                }
+              });
+            }
+            else
+              new_urls.push(urls);
+          }
+      
+          else if (streamings == 'netflix') {
+            
+            if (urls.includes(',')){
+              urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streamings)){
+                  new_urls.push(url);
+                }
+              });
+            }
+            else
+              new_urls.push(urls);
+          }
+      
+          else if (streamings == 'hbomax') {
+            if (urls.includes(',')){
+              urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streamings)){
+                  new_urls.push(url);
+                }
+              });
+            }
+            else
+              new_urls.push(urls);
+          }
+      
+          else if (streamings == 'primevideo') {
+            if (urls.includes(',')){
+              urls=elem['Url'].split(',');
+              urls.forEach(function(url){
+                if (url.includes(streamings)){
+                  new_urls.push(url);
+                }
+              });
+            }
+            else
+              new_urls.push(urls);
+          }
       }
     }
   }
@@ -239,18 +317,34 @@ function handleResponse(response) {
 function searchData(data) {
   let mediaInfo = data['data']['Page']['media'];
 
-  for (let value in mediaInfo) {
-    let elem = mediaInfo[value];
-    let episodes = elem['episodes'];
-    let format = elem['format'];
-    let duration = elem['duration'];
-    let image = elem['coverImage']['large'];
-    let romaji = elem['title']['romaji'];
-    let english = elem['title']['english'];
-    let externalLinks = elem['externalLinks'];
-    let anilistUrl = elem['siteUrl'];
-    externalLinks= check_Links(romaji,english);
-    add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, duration);
+  if (mediaInfo.length != 0){
+    for (let value in mediaInfo) {
+      let elem = mediaInfo[value];
+      let episodes = elem['episodes'];
+      let format = elem['format'];
+      let duration = elem['duration'];
+      let image = elem['coverImage']['large'];
+      let romaji = elem['title']['romaji'];
+      let english = elem['title']['english'];
+      let anilistUrl = elem['siteUrl'];
+      let Links= check_Links(romaji,english);
+      add_Card(image, romaji, Links, anilistUrl, episodes, format, duration);
+    }
+  }
+  
+  else{
+    let notFoundDiv = nodeFactory('div','notFoundDiv');
+    
+    let notFoundImg = 'Icons/notfound.gif'
+    let notFoundImgElem = nodeFactory('img',notFoundImg,'notFoundImgElem');
+    let notFoundTxt = nodeFactory('p','Nenhum resultado para a busca','text-1')
+    let body = document.body;
+    notFoundImgElem.setAttribute('style','border-radius: 10px;height: 200px')
+    notFoundDiv.style.display = 'flex';
+    notFoundDiv.setAttribute('style','display: flex; flex-direction: column;flex-wrap: wrap; justify-content: center; align-content: center; align-items: center; margin-top: 50px;')
+    notFoundDiv.appendChild(notFoundImgElem);
+    notFoundDiv.appendChild(notFoundTxt);
+    body.appendChild(notFoundDiv);
   }
 }
 
@@ -288,8 +382,8 @@ function nodeFactory(type, content, name) {
   return -1;
 }
 
-function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, duration) {
-  let card = nodeFactory('div', 'card');
+function add_Card(image, romaji, Links, anilistUrl, episodes, format, duration) {
+  let card = nodeFactory('div', 'cardElem');
   let imgElement = nodeFactory('img', image, 'coverImage');
   let imgUrl = nodeFactory('a', 'anilistUrl');
   let titleElement = nodeFactory('p', romaji, 'title');
@@ -305,8 +399,7 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
   imgUrl.href = anilistUrl;
   imgUrl.target = '_blank';
 
-
-  externalLinks.forEach(function(link) {
+  Links.forEach(function(link) {
     if (link.includes('crunchyroll')) {
       let streamingIcon = nodeFactory('img', 'Icons/crunchyrollIcon.png', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
@@ -381,10 +474,10 @@ function add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, du
   card.appendChild(cardInfo);
   card.appendChild(imgUrl);
   card.appendChild(titleElement);
-  container.appendChild(card);
+  box.appendChild(card);
 
   if (streamings.childNodes.length == 0) {
-    let streamingIcon = nodeFactory('img', 'Icons/emojiIcon.png', 'streamingIcon');
+    let streamingIcon = nodeFactory('img',Icons/emojiIcon.png', 'streamingIcon');
     let streamingsElement = nodeFactory('a', 'streaming');
     streamingIcon.name = 'emojiIcon';
     streamingsElement.appendChild(streamingIcon);
@@ -404,11 +497,82 @@ function menuData(data) {
     let image = elem['coverImage']['large'];
     let romaji = elem['title']['romaji'];
     let english = elem['title']['english'];
-    let externalLinks = elem['externalLinks'];
     let anilistUrl = elem['siteUrl'];
-    externalLinks= check_Links(romaji,english);
-    add_Card(image, romaji, externalLinks, anilistUrl, episodes, format, duration, averageScore);
+    let Links= check_Links(romaji,english);
+    add_Card(image, romaji, Links, anilistUrl, episodes, format, duration, averageScore);
   }
 }
 
-request_API(url, menu_options, false);
+window.addEventListener('pageshow', function(){
+  document.getElementById("anime_search").value = getSearchQueryFromURL();
+});
+
+if (window.location.pathname=='/')
+  request_API(url, menu_options, false);
+
+else if (window.location.pathname=='/search'){
+  let searchQuery = getSearchQueryFromURL();
+  performSearch(searchQuery);
+  document.getElementById("logoIcon").style.marginLeft = '11px';
+  document.getElementById("searchButton").style.display = "none";
+  document.getElementById("search_bar").style.display = "flex";
+  document.getElementById("close_search_bar").style.display = "flex";
+  document.getElementById("anime_search").value = searchQuery;
+}
+
+else if (window.location.pathname=='/info')
+{
+  document.getElementById("searchButton").addEventListener("click", function() {
+    document.getElementById("title-center").style.top = "70px";
+    document.getElementById("text-left").style.top = "70px";
+  });
+  
+  document.getElementById("close_search_bar").addEventListener("click", function() {
+    document.getElementById("title-center").style.top = "0px";
+    document.getElementById("text-left").style.top = "0px";
+  });
+}
+
+else if (window.location.pathname=='/donate')
+{
+  document.addEventListener('DOMContentLoaded', function() {
+    let copyImage = document.getElementById('pix-icon');
+    let copyImage2 = document.getElementById('pix-qrcode');
+  
+    copyImage.addEventListener('click', function() {
+      let textToCopy = "c6948497-1cbf-47c2-b805-29856e623317";
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          alert('Chave pix copiada para área de transferência!');
+        })
+        .catch((error) => {
+          console.error('Falha ao copiar texto!', error);
+        });
+    });
+  
+    copyImage2.addEventListener('click', function() {
+      let textToCopy = "c6948497-1cbf-47c2-b805-29856e623317";
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          alert('Chave pix copiada para área de transferência!');
+        })
+        .catch((error) => {
+          console.error('Falha ao copiar texto!', error);
+        });
+    });
+  });
+
+  document.getElementById("searchButton").addEventListener("click", function() {
+    document.getElementById("title-center").style.top = "70px";
+    document.getElementById("text-center").style.top = "70px";
+    document.getElementById("pix-container").style.top = "50%";
+    document.getElementById("ritsu-heart").style.top = "550px";
+  });
+  
+  document.getElementById("close_search_bar").addEventListener("click", function() {
+    document.getElementById("title-center").style.top = "0px";
+    document.getElementById("text-center").style.top = "0px";
+    document.getElementById("pix-container").style.top = "40%";
+    document.getElementById("ritsu-heart").style.top = "445px";
+  });
+}

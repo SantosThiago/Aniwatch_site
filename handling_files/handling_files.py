@@ -169,6 +169,7 @@ def csv_to_json(title,dataframe):
     with open('animes.json', 'w') as file:
         file.write(json_file)
 
+    os.system('cls||clear')
     print('Arquivo transformado com nome '+title+'.json')
     print('\n')
 
@@ -197,15 +198,59 @@ def unifyDataframes(name,dataframe1,dataframe2):
     print(df)
     df.to_csv(name+'.csv',index=False)
 
+def crunchyrollCheckNewTitles(file):
+    ind=0
+    urls=[]
+    new_data=[]
+
+    with open(file,'r',encoding='cp437') as json_file2:
+        dic= json.load(json_file2)
+
+    with open('animes.json','r',encoding='cp437') as json_file:
+        dic_animes= json.load(json_file)
+    
+    with open('forbbidenList','r',encoding='utf-8') as file:
+        forbbidenList=file.readlines()
+    
+    for i in range(len(forbbidenList)):
+        forbbidenList[i]=forbbidenList[i].replace('\n','')
+
+    for key2 in dic_animes:
+        if ',' in dic_animes[key2]['Url']:
+            split=dic_animes[key2]['Url'].split(',')
+            for i in range(len(split)):
+                if 'crunchyroll' in split[i]:
+                    urls.append(split[i])
+        else:
+            urls.append(dic_animes[key2]['Url'])
+
+    for key in dic:
+        title=dic[key]['Nome']
+        streaming=dic[key]['Streaming']
+        url=dic[key]['Url']
+
+        if url not in urls and title not in forbbidenList:
+            new_data.append([title,streaming,url])
+    
+    if new_data != []:
+        df=pd.DataFrame(new_data,columns=['Nome','Streaming','Url'])
+        df.to_csv('newCrunchyrollTitles.csv',index=False)
+        os.system('cls||clear')
+        print('Arquivo newCrunchyrollTitles.csv criado com sucesso\n')
+    else:
+        os.system('cls||clear')
+        print('Nenhum novo titulo para ser adicionado\n')
+
 streamings=[['netflix','nfx'],['primevideo','prv'],['hbomax','hbm']]
 op=0
 
-while op!=5:
+while op!=6:
     print('1-Criar csv')
     print('2-Juntar csv')
     print('3-Transformar json em csv')
     print('4-Transformar csv em json')
-    print('5-Sair')
+    print('5-Checa novos titulos da crunchyroll')
+    print('6-Sair')
     op=int(input('Escolha uma opcao:'))
 
     if op==1:
@@ -235,29 +280,38 @@ while op!=5:
         csv2=input('Digite o nome do segundo arquivo csv:')
         name=input('Digite o nome do arquivo final:')
         
-        if '.csv' in csv1 or '.csv' in csv2:
-            print(csv1,csv2)
-            print('Nao digite o .csv, apenas o nome do arquivo')
+        if '.csv' not in csv1 or '.csv' not in csv2:
+            print('Insira o .csv')
 
         else:
-            unifyDataframes(name,csv1+'.csv',csv2+'.csv')
+            unifyDataframes(name,csv1,csv2)
 
     elif op==3:
         os.system('cls||clear')
         name=input('Digite o nome do arquivo json:')
 
-        if '.json' in name:
-            print('Nao digite o .json, apenas o nome do arquivo')
+        if '.json' not in name:
+            print('Insira o .json')
         
         else:
-            json_to_csv(name,name+'.json')
+            json_to_csv(name.split('.')[0],name)
     
     elif op==4:
         os.system('cls||clear')
         name=input('Digite o nome do arquivo csv:')
 
-        if '.csv' in name:
-            print('Nao digite o .csv, apenas o nome do arquivo')
+        if '.csv' not in name:
+            print('Insira o .csv')
         
         else:
-            csv_to_json(name,name+'.csv')
+            csv_to_json(name.split('.')[0],name)
+    
+    elif op==5:
+        os.system('cls||clear')
+        name=input('Digite o nome do arquivo json:')
+
+        if '.json' not in name:
+            print('Insira o .json')
+        
+        else:
+            crunchyrollCheckNewTitles(name)

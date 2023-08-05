@@ -1,5 +1,4 @@
 Nome,Streaming,Url
-Demon Slayer: Kimetsu no Yaba,netflix,http://www.netflix.com/title/81091393
 Vinland Saga,"netflix,primevideo,crunchyroll","http://www.netflix.com/title/81249833,https://app.primevideo.com/detail?gti=amzn1.dv.gti.acb5e20f-5e4a-e434-cfc8-a1391d0b9516,https://www.crunchyroll.com/pt-br/series/GEXH3WKK0/vinland-saga"
 Vinland Saga Season 2,"netflix,crunchyroll","http://www.netflix.com/title/81249833,https://www.crunchyroll.com/pt-br/series/GEXH3WKK0/vinland-saga"
 One Piece,"netflix,hbomax","http://www.netflix.com/title/80107103,https://play.hbomax.com/page/urn:hbo:page:GYmhnMggKRBymmwEAAADe:type:series"
@@ -52,6 +51,7 @@ Ghost in the Shell,"netflix,primevideo",https://app.primevideo.com/detail?gti=am
 Tekken: Bloodline,netflix,http://www.netflix.com/title/81002441
 The Way of the Househusband,netflix,http://www.netflix.com/title/81261669
 The Way of the Househusband Part 2,netflix,http://www.netflix.com/title/81261669
+The Way of the Househusband: Season 2,netflix,http://www.netflix.com/title/81261670
 The Promised Neverland,"netflix,crunchyroll","http://www.netflix.com/title/81145640,https://www.crunchyroll.com/pt-br/series/GYVD2K1WY/the-promised-neverland"
 Knights of the Zodiac: Saint Seiya,netflix,http://www.netflix.com/title/80186926
 Knights of the Zodiac: Saint Seiya Part 2,netflix,http://www.netflix.com/title/80186926
@@ -73,7 +73,6 @@ Drifting Home,netflix,http://www.netflix.com/title/81328781
 Case Closed: Zero's Tea Time,netflix,http://www.netflix.com/title/81313289
 Devilman Crybaby,netflix,http://www.netflix.com/title/80174974
 Nausicaä of the Valley of the Wind,netflix,http://www.netflix.com/title/70019062
-Ergo Proxy,netflix,http://www.netflix.com/title/80117347
 The Wind Rises,netflix,http://www.netflix.com/title/70293674
 Black Lagoon,netflix,http://www.netflix.com/title/70308852
 Black Lagoon: The Second Barrage,netflix,http://www.netflix.com/title/70308852
@@ -84,6 +83,7 @@ Ponyo,netflix,http://www.netflix.com/title/70106454
 Pokémon Journeys: The Series,netflix,"http://www.netflix.com/title/81291575,http://www.netflix.com/title/81193140,https://www.netflix.com/title/81291578"
 The Daily Life of the Immortal King,"netflix,crunchyroll","http://www.netflix.com/title/81364944,https://www.crunchyroll.com/pt-br/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king"
 "BASTARD!! -Heavy Metal, Dark Fantasy-",netflix,http://www.netflix.com/title/81281582
+"BASTARD!! -Heavy Metal, Dark Fantasy- Hell’s Requiem Arc",netflix,http://www.netflix.com/title/81281582
 AJIN: Demi-Human,netflix,http://www.netflix.com/title/80043576
 AJIN: Demi-Human 2,netflix,http://www.netflix.com/title/80043576
 Kuroko's Basketball,netflix,http://www.netflix.com/title/80063153
@@ -184,7 +184,6 @@ High-Rise Invasion,netflix,http://www.netflix.com/title/81043571
 Only Yesterday,netflix,http://www.netflix.com/title/80092922
 Dinosaur King,"netflix,primevideo","http://www.netflix.com/title/80007912,https://app.primevideo.com/detail?gti=amzn1.dv.gti.a8b54f46-d052-151c-1100-eec1864aa635"
 Thus Spoke Rohan Kishibe,netflix,http://www.netflix.com/title/81280998
-When They Cry,netflix,http://www.netflix.com/title/70308793
 Rilakkuma's Theme Park Adventure,netflix,http://www.netflix.com/title/81341765
 One Piece Film: Strong World,netflix,http://www.netflix.com/title/80998781
 The Tale of The Princess Kaguya,netflix,http://www.netflix.com/title/80013552
@@ -269,7 +268,7 @@ Aggretsuko: We Wish You A Metal Christmas,netflix,http://www.netflix.com/title/8
 Dragon Pilot: Hisone & Masotan,netflix,http://www.netflix.com/title/80241960
 Tiger & Bunny: The Movie - The Rising,netflix,http://www.netflix.com/title/81579323
 Tiger & Bunny: The Movie - The Beginning,netflix,http://www.netflix.com/title/81579322
-Saint Seiya: The Lost Canvas,"primevideo,hbomax,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.3ab5f36c-275a-7fd1-b84b-19615df1b3af,https://play.hbomax.com/episode/urn:hbo:episode:GYeC2AwDjem6rwgEAABbc ,https://www.crunchyroll.com/pt-br/series/G65VP49P6/saint-seiya-the-lost-canvas"
+Saint Seiya: The Lost Canvas,"primevideo,hbomax,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.3ab5f36c-275a-7fd1-b84b-19615df1b3af,https://play.hbomax.com/episode/urn:hbo:episode:GYeC2AwDjem6rwgEAABbc,https://www.crunchyroll.com/pt-br/series/G65VP49P6/saint-seiya-the-lost-canvas"
 Saint Seiya: The Lost Canvas 2,"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.68b6d8db-30b8-f7ff-2423-7af6abda946b,https://play.hbomax.com/episode/urn:hbo:episode:GYeC2AwDjem6rwgEAABbc ,https://www.crunchyroll.com/pt-br/series/G65VP49P6/saint-seiya-the-lost-canvas"
 Saint Seiya: LEGEND of SANCTUARY,primevideo,"https://www.primevideo.com/detail/0PH9LZP0SYZTH809FY9Q17Z34I/,https://play.hbomax.com/page/urn:hbo:page:GYfKHJg8SvcPDwwEAAABR:type:feature"
 Weathering With You,"primevideo,hbomax","https://app.primevideo.com/detail?gti=amzn1.dv.gti.92bb5b5d-a25a-f727-f449-380832d9a07a,https://play.hbomax.com/feature/urn:hbo:feature:GX-oSjAOJ4sPDfAEAAAAK"
@@ -367,8 +366,12 @@ Tomorrow's Joe 2,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.5
 FLCL Progressive,"hbomax,crunchyroll","https://play.hbomax.com/episode/urn:hbo:episode:GYZ9WIgBV-kKxngEAAAAX,https://www.crunchyroll.com/pt-br/series/GRDK3DD4Y/flcl"
 FLCL Alternative,"hbomax,crunchyroll","https://play.hbomax.com/episode/urn:hbo:episode:GYyiACAqI1Y7DwwEAAAD4,https://www.crunchyroll.com/pt-br/series/GRDK3DD4Y/flcl"
 Your Name.,hbomax,https://play.hbomax.com/feature/urn:hbo:feature:GYIjjJwrPnZGxLwEAAANC
+Dragon Ball,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV7W21/dragon-ball
+Dragon Ball GT,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WXXM/dragon-ball-gt
+Dragon Ball Super,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR19V7816/dragon-ball-super
+Dragon Ball Super: SUPER HERO,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
 Dragon Ball Z Kai,"hbomax,crunchyroll","https://play.hbomax.com/episode/urn:hbo:episode:GYyHkPQe8CBagoQEAAAAx,https://www.crunchyroll.com/pt-br/series/GMEHMEWP0/dragon-ball-z-kai"
-Dragon Ball Z Kai: The Final Chapters,"hbomax,crunchyroll","https://play.hbomax.com/page/urn:hbo:page:GY0XU4AhXXsPCUAEAAAA3:type:series ,https://www.crunchyroll.com/pt-br/series/GMEHMEWP0/dragon-ball-z-kai"
+Dragon Ball Z Kai: The Final Chapters,"hbomax,crunchyroll","https://play.hbomax.com/page/urn:hbo:page:GY0XU4AhXXsPCUAEAAAA3:type:series,https://www.crunchyroll.com/pt-br/series/GMEHMEWP0/dragon-ball-z-kai"
 Fairy Tail,hbomax,https://play.hbomax.com/episode/urn:hbo:episode:GYoy0UgWX-X-zwgEAAAAD
 Cowboy Bebop: The Movie - Knockin' on Heaven's Door,hbomax,https://play.hbomax.com/feature/urn:hbo:feature:GYd2T4Ag9-LnDcQEAAAMC
 The Animatrix,hbomax,https://play.hbomax.com/feature/urn:hbo:feature:GXqRuGwbYSsLDwgEAAAGc
@@ -761,9 +764,9 @@ Delicious Party Pretty Cure,crunchyroll,https://www.crunchyroll.com/pt-br/series
 DEMIAN,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6P85JWG6/demian
 Demon King Daimao,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRGG58V1R/demon-king-daimao
 "Maou-sama, Retry!",crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM37KD/demon-lord-retry
-Demon Slayer: Kimetsu no Yaiba,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
+Demon Slayer: Kimetsu no Yaiba,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba,http://www.netflix.com/title/81091393"
 Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
-Demon Slayer: Kimetsu no Yaiba Mugen Train Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
+Demon Slayer: Kimetsu no Yaiba Mugen Train Arc,crunchyroll,"https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba,http://www.netflix.com/title/81091393"
 Demon Slayer: Kimetsu no Yaiba Entertainment District Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
 Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
 DENKI-GAI,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYVN3Q136/denki-gai
@@ -1000,8 +1003,6 @@ Gunslinger Stratos,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY75KPZ5
 Gurazeni: Money Pitch,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVDWZZ4R/gurazeni-money-pitch
 Gurazeni: Money Pitch 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVDWZZ4R/gurazeni-money-pitch
 Guyver: The Bioboosted Armor,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR9P7JMV6/guyver-the-bioboosted-armor
-HAIKYU!!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3980/haikyu-dubs
-HAIKYU!! 2nd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3980/haikyu-dubs
 Fighting Spirit: Rising,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY49G5XQR/hajime-no-ippo-the-fighting---rising--
 Hakata Mentai! Pirikarako-chan,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR4PQX0WY/hakata-mentai-pirikarako-chan
 Hakata Tonkotsu Ramens,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYJQG29X6/hakata-tonkotsu-ramens
@@ -1053,6 +1054,21 @@ High School DxD HERO,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR2P21
 High School Prodigies Have It Easy Even In Another World,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYXJKGDN6/high-school-prodigies-have-it-easy-even-in-another-world
 Higurashi: When They Cry - GOU,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WXEM/higurashi-when-they-cry---gou
 Higurashi: When They Cry - SOTSU,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WXEM/higurashi-when-they-cry---gou
+Himegoto,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYK53VPPR/himegoto
+HIMOTE HOUSE: A share house of super psychic girls,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYG5VG03Y/himote-house-a-share-house-of-super-psychic-girls
+Hina Logic - from Luck & Logic,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRX0ZKZK6/hina-logic---from-luck--logic
+Hinako Note,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6E58N5VY/hinako-note
+HINAMATSURI,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR79PWJ16/hinamatsuri
+Hinomaru Sumo,crunchyroll,https://www.crunchyroll.com/pt-br/series/G60X7D34R/hinomaru-sumo
+Hitori no Shita - The Outcast,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63VMXEQY/hitori-no-shita---the-outcast
+Hitori no Shita - The Outcast 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63VMXEQY/hitori-no-shita---the-outcast
+Hitoribocchi no Marumaruseikatsu,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEX47296/hitoribocchi-no-marumaruseikatsu
+Holmes of Kyoto,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZJXGX46/holmes-of-kyoto
+Horimiya,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9P43/horimiya
+Hortensia SAGA,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WXMM/hortensia-saga
+How a Realist Hero Rebuilt the Kingdom,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJV3MV/how-a-realist-hero-rebuilt-the-kingdom
+How a Realist Hero Rebuilt the Kingdom Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJV3MV/how-a-realist-hero-rebuilt-the-kingdom
+"How clumsy you are, Miss Ueno.",crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZJ1PK86/how-clumsy-you-are-miss-ueno
 How Heavy Are the Dumbbells You Lift?,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ80VJ/how-heavy-are-the-dumbbells-you-lift
 How Not to Summon a Demon Lord,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYZJXWWGR/how-not-to-summon-a-demon-lord
 How NOT to Summon a Demon Lord Ω,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYZJXWWGR/how-not-to-summon-a-demon-lord
@@ -2322,3 +2338,92 @@ Dragon Ball Z: Cooler's Revenge,crunchyroll,https://www.crunchyroll.com/pt-br/se
 Dragon Ball Z: The Return of Cooler,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-z-movies
 Dragon Ball Z: Super Android 13!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-z-movies
 YOHANE THE PARHELION -SUNSHINE in the MIRROR,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM9ZM/yohane-the-parhelion--sunshine-in-the-mirror
+Horimiya: The Missing Pieces,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9P43/horimiya
+Am I Actually the Strongest?,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9QED/am-i-actually-the-strongest
+My Tiny Senpai,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23Z45/my-tiny-senpai
+AYAKA,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3GQ7/ayaka
+Atelier Ryza: Ever Darkness & the Secret Hideout The Animation,crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W2Z5/atelier-ryza-ever-darkness--the-secret-hideout-the-animation
+Mushoku Tensei: Jobless Reincarnation Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation
+Fate/strange Fake -Whispers of Dawn-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WJQZ/fatestrange-fake--whispers-of-dawn-
+Masamune-kun's Revenge R,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYX02P3MR/masamune-kuns-revenge
+Malevolent Spirits: Mononogatari Cour 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEPW1/malevolent-spirits-mononogatari
+Sweet Reincarnation,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7QG2G/sweet-reincarnation
+The Girl I Like Forgot Her Glasses,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN9DE/the-girl-i-like-forgot-her-glasses
+"Reborn as a Vending Machine, I Now Wander the Dungeon",crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon
+JUJUTSU KAISEN Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen
+Undead Murder Farce,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME7XV/undead-murder-farce
+Rurouni Kenshin (2023),crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM1NK/rurouni-kenshin
+The Great Cleric,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5XQ24/the-great-cleric
+Sugar Apple Fairy Tale Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM7E2/sugar-apple-fairy-tale
+"Liar, Liar",crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3G34/liar-liar
+Reign of the Seven Spellblades,crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W2Z7/reign-of-the-seven-spellblades
+My Unique Skill Makes Me OP even at Level 1,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJV0VV/my-unique-skill-makes-me-op-even-at-level-1
+The Masterful Cat is Depressed Again Today,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23Z3P/the-masterful-cat-is-depressed-again-today
+Cardfight!! Vanguard will+Dress Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3NJ5/cardfight-vanguard-overdress
+Rent-a-Girlfriend Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6QWV3976/rent-a-girlfriend
+The Gene of AI,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9Q9N/the-gene-of-ai
+Shadowverse Flame: Seven Shadows Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEX244X6/shadowverse
+The Duke of Death and His Maid Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23V0G/the-duke-of-death-and-his-maid
+Classroom for Heroes,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN9N3/classroom-for-heroes
+Zom 100: Bucket List of the Dead,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GJ0H7QGQK/zom-100-bucket-list-of-the-dead,https://www.netflix.com/title/81680101"
+TenPuru,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WJWQ/tenpuru
+Theatre of Darkness: Yamishibai 11,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6WEM1V36/theatre-of-darkness-yamishibai
+Bungo Stray Dogs 5,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR5VXQ8PR/bungo-stray-dogs
+TONIKAWA: Over The Moon For You ~High School Days~,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWMGGQ86/tonikawa-over-the-moon-for-you
+Saint Cecilia & Pastor Lawrence,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G0G9/saint-cecilia-and-pastor-lawrence
+Synduality Noir,starplus,https://www.starplus.com/pt-br/series/synduality-noir/6Wyhb8bQ9XDr
+BLEACH: Thousand-Year Blood War - The Separation,starplus,https://www.starplus.com/pt-br/series/bleach-thousand-year-blood-war/4Afet1Q421gy
+My Happy Marriage,netflix,https://www.netflix.com/title/81564905
+PSYCHO-PASS 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass
+PSYCHO-PASS 3: First Inspector,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass
+Record of Ragnarok II Part 2,netflix,https://www.netflix.com/title/81281579
+The Devil is a Part-Timer!! Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR75Z5KKY/the-devil-is-a-part-timer
+Link Click Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8E81/link-click
+All Saints Street,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM5N2/all-saints-street
+All Saints Street 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM5N2/all-saints-street
+All Saints Street 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM5N2/all-saints-street
+Copihan,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV78N3/copihan
+Dr. STONE,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
+Dr. STONE: STONE WARS,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
+Dr. STONE Special Episode – RYUSUI,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
+Dr. STONE New World,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
+Dragon Ball Z,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9PPW/dragon-ball-z
+GANBARE DOUKICHAN,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G87N/ganbare-doukichan
+"I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W49E/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too
+Kurau Phantom Memory,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYMGNKK7Y/kurau-phantom-memory
+Kuroko's Basketball,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Kuroko's Basketball: Tip Off,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Kuroko's Basketball 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Kuroko’s Basketball 2: Would You Mind Doing That Once More,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Kuroko's Basketball 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Kuroko's Basketball: The Greatest Present,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Kuroko's Basketball: Last Game,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Winter Cup Highlights Episode 1 – Winter Cup Highlights -Shadow and Light-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Winter Cup Highlights Episode 2 – Winter Cup Highlights -Beyond the Tears-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+Winter Cup Highlights Episode 3 – Winter Cup Highlights -Crossing the Door-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G62P48X56/kurokos-basketball
+ME & ROBOCO,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G031/me--roboco
+Mikagura School Suite,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRQ42KD7Y/mikagura-school-suite
+Roughneck Sumo Wrestler!! Matsutarou,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VMEM8Y/rowdy-sumo-wrestler-matsutaro
+RPG Real Estate,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME4PQ/rpg-real-estate
+RUMBLE GARANNDOLL,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX8J7W/rumble-garanndoll
+Slow Loop,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2GQ1G/slow-loop
+The Sacred Blacksmith,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6ME4XJ4R/the-sacred-blacksmith
+Twin Angel Break,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQ54786/twin-angels-break
+Twin Star Exorcists,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63VM084Y/twin-star-exorcists
+TWOCAR,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY2PQNPMY/twocar
+HAIKYU!!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!! 2nd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!! 3rd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!! TO THE TOP,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU‼ TO THE TOP Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!! LAND VS. AIR,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+Haikyu!! The Movie: Talent and Sense,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+Haikyu!! The Movie: Battle of Concepts,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!!: Lev Appears!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!! - Special Feature! The Spring Tournament of Their Youth,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!!: VS Failing Marks,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+Dorohedoro: Ma no Omake,netflix,https://www.netflix.com/title/80991903
+All Out!!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR8VJVX7R/all-out
+Baki Hanma Season 2,netflix,https://www.netflix.com/title/81236338
+Resident Evil: Damnation,netflix,https://www.netflix.com/br/title/70229183
+Paprika,netflix,https://www.netflix.com/br/title/70065105

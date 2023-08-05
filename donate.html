@@ -3,14 +3,14 @@
   <head>
     <link rel='shortcut icon' href='Icons/logoIcon.png'>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <meta name="viewport" content="width=device-width">
     <title>Aniwatch</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-  </head>
+    </head>
   
   <body>
     <header>
@@ -51,8 +51,30 @@
         </button>
       </div>
     </header>
-    <div class="container">
-      <div class='box' id='box'></div>
+    <div id="text-1">
+      <p style="margin: 10px;">Caso queira apoiar o projeto com alguma quantia, basta ler o código qr com aplicativo do seu banco ou clicar nele para copiar a chave pix.</p>
+      <p style="margin: 10px;">Gostou do projeto e quer ajudar? Há diversas formas de contribuir além da doação.
+      <p style="margin: 10px;">Caso tenha interesse, entre em contato:</p>  
+    </div>
+    <div class="parent-contacts">
+      <div id="contacts2">
+        <a href="https://discordapp.com/users/208000973698891776" target="_blank">
+          <img src="Icons/discord.png" id='discordIcon'>
+        </a>
+        <a href="mailto:contato@aniwatch.com.br" target="_blank">
+          <img id="gmailIcon" src="Icons/gmail.png">
+        </a>
+        <a href="https://github.com/SantosThiago/Aniwatch_site" target="_blank">
+          <img src="Icons/github.png" id='gitIcon'>
+        </a>
+      </div>
+    </div>
+    <div class="parent-pix-container">
+      <div id="pix-container">
+        <img id="pix-icon" src="Icons/pix-icon.png">
+        <img id="pix-qrcode" src="Icons/pix-qrcode.jpg">
+      </div>
+      <img id="ritsu-heart" src="Icons/ritsu-heart.gif">
     </div>
     <script type="module" src='script.js'></script>
   </body>
