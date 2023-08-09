@@ -1991,8 +1991,8 @@
    },
    "398": {
       "Nome": "Avengers Confidential: Black Widow & Punisher",
-      "Streaming": "disneyplus",
-      "Url": "https://www.disneyplus.com/pt-br/movies/os-vingadores-confidencial-viuva-negra-justiceiro/4kueq9jMm4zx"
+      "Streaming": "hbomax",
+      "Url": "https://play.hbomax.com/page/urn:hbo:page:GZKSinwZ8iq-1mgEAAB1t:type:feature"
    },
    "399": {
       "Nome": "Iron Man: Rise of Technovore",
@@ -2835,7 +2835,7 @@
       "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM7G1X/bang-dream-movies"
    },
    "567": {
-      "Nome": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
+      "Nome": "Banished from the Hero\u2019s Party, I Decided to Live a Quiet Life in the Countryside",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN974E/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside"
    },
@@ -12138,5 +12138,10 @@
       "Nome": "Paprika",
       "Streaming": "netflix",
       "Url": "https://www.netflix.com/br/title/70065105"
+   },
+   "2428": {
+      "Nome": "Nanatsu no Taizai: Ensa no Edinburgh Part 2",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81306306"
    }
 }

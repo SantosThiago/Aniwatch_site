@@ -6,3 +6,6 @@ node_modules
 *-cleaned.csv
 *-cleaned.json
 ignoreList
+handling_files/crunchyroll_web_scrap.js
+handling_files/crunchyrollCheckNewTitles.py
+handling_files/crunchyrollCheckRemoveTitles.py
