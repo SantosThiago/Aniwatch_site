@@ -3836,13 +3836,13 @@
    },
    "767": {
       "Nome": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
-      "Streaming": "crunchyroll",
+      "Streaming": "crunchyroll,netflix",
       "Url": "https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba,http://www.netflix.com/title/81091393"
    },
    "768": {
       "Nome": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba,http://www.netflix.com/title/81091393"
    },
    "769": {
       "Nome": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
