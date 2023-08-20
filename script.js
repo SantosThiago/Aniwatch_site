@@ -1,4 +1,10 @@
-import database from '/animes.json' assert { type: 'json' };
+import database from '/animes.json';
+
+try {
+    JSON.parse(database);
+} catch (error) {
+    throw new Error("'animes.json' not valid");
+}
 
 var submit = document.getElementById('submit');
 const url = 'https://graphql.anilist.co';
