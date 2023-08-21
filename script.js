@@ -1,11 +1,4 @@
-import database from '/animes.json';
-
-try {
-    JSON.parse(database);
-} catch (error) {
-    throw new Error("'animes.json' not valid");
-}
-
+var database;
 var submit = document.getElementById('submit');
 const url = 'https://graphql.anilist.co';
 const menu_query =
@@ -75,6 +68,21 @@ const query =
     }
   }
 `;
+
+fetch('/animes.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error with json file.');
+    }
+    return response.json();
+  })
+  .then(data => {
+    database= data;
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
 var menu_options =
 {
   method: 'POST',
