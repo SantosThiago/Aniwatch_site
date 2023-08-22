@@ -69,19 +69,24 @@ const query =
   }
 `;
 
-fetch('/animes.json')
-  .then(response => {
+async function fetchData() {
+  try {
+    let response = await fetch('/animes.json');
+
     if (!response.ok) {
       throw new Error('Error with json file.');
     }
-    return response.json();
-  })
-  .then(data => {
-    database= data;
-  })
-  .catch(error => {
+
+    let data = await response.json();
+    
+    return data;
+  } catch (error) {
     console.error(error);
-  });
+    throw error;
+  }
+}
+
+database = await fetchData();
 
 var menu_options =
 {
