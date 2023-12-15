@@ -1,14 +1,13 @@
 Nome,Streaming,Url
 Vinland Saga,"netflix,primevideo,crunchyroll","http://www.netflix.com/title/81249833,https://app.primevideo.com/detail?gti=amzn1.dv.gti.acb5e20f-5e4a-e434-cfc8-a1391d0b9516,https://www.crunchyroll.com/pt-br/series/GEXH3WKK0/vinland-saga"
 Vinland Saga Season 2,"netflix,crunchyroll","http://www.netflix.com/title/81249833,https://www.crunchyroll.com/pt-br/series/GEXH3WKK0/vinland-saga"
-One Piece,"netflix,hbomax","http://www.netflix.com/title/80107103,https://play.hbomax.com/page/urn:hbo:page:GYmhnMggKRBymmwEAAADe:type:series"
 Pokémon,netflix,http://www.netflix.com/title/70297439
 Pokémon: The Arceus Chronicles,netflix,https://www.netflix.com/title/81605060
 Death Note,"netflix,hbomax,crunchyroll","http://www.netflix.com/title/70204970,https://play.hbomax.com/page/urn:hbo:page:GXuFMfQuwD5uSkwEAAAth:type:series,https://www.crunchyroll.com/pt-br/series/G6QWD3EE6/death-note"
-Naruto,"netflix,hbomax,crunchyroll","http://www.netflix.com/title/70205012,https://play.hbomax.com/page/urn:hbo:page:GYsgmoQasUUKHagEAAAAD:type:series,https://www.crunchyroll.com/pt-br/series/GY9PJ5KWR/naruto"
-Naruto the Movie: Ninja Clash in the Land of Snow,netflix,https://www.netflix.com/title/70074559
-Naruto the Movie: Legend of the Stone of Gelel,netflix,https://www.netflix.com/title/70101321
-Naruto the Movie: Guardians of the Crescent Moon Kingdom,netflix,https://www.netflix.com/title/70108386
+Naruto,"netflix,hbomax,crunchyroll,primevideo","http://www.netflix.com/title/70205012,https://play.hbomax.com/page/urn:hbo:page:GYsgmoQasUUKHagEAAAAD:type:series,https://www.crunchyroll.com/pt-br/series/GY9PJ5KWR/naruto,https://www.primevideo.com/-/pt/detail/0MU0NOEZHYNIYT5936RRNMF2ES"
+Naruto the Movie: Ninja Clash in the Land of Snow,"netflix,primevideo","https://www.netflix.com/title/70074559,https://www.primevideo.com/-/pt/detail/0FRYYEYM96SL6QZRX2OGYJVW4I"
+Naruto the Movie: Legend of the Stone of Gelel,"netflix,primevideo","https://www.netflix.com/title/70101321,https://www.primevideo.com/-/pt/detail/0O52WFQM0S2A706C5WVHBC7KCZ"
+Naruto the Movie: Guardians of the Crescent Moon Kingdom,"netflix,primevideo","https://www.netflix.com/title/70108386,https://www.primevideo.com/-/pt/detail/0RL6LB8V5HBZ0Z9L6E8M04T83L"
 One Punch Man,netflix,http://www.netflix.com/title/80117291
 One-Punch Man Season 2,netflix,http://www.netflix.com/title/80117291
 Spirited Away,netflix,http://www.netflix.com/title/60023642
@@ -24,7 +23,6 @@ JoJo's Bizarre Adventure: Stardust Crusaders,"netflix,crunchyroll","http://www.n
 JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt,"netflix,crunchyroll","http://www.netflix.com/title/80179831,https://www.crunchyroll.com/pt-br/series/GYP8DP1MY/jojos-bizarre-adventure"
 JoJo's Bizarre Adventure: Diamond is Unbreakable,"netflix,crunchyroll","http://www.netflix.com/title/80179831,https://www.crunchyroll.com/pt-br/series/GYP8DP1MY/jojos-bizarre-adventure"
 JoJo's Bizarre Adventure: STONE OCEAN,netflix,http://www.netflix.com/title/80179831
-Akira,netflix,http://www.netflix.com/title/60021103
 Uncle from Another World,netflix,http://www.netflix.com/title/81499847
 Inuyasha,"netflix,primevideo","http://www.netflix.com/title/70204995,https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ab54f33-a32f-ffd9-b7eb-81563715fdf7"
 My Neighbor Totoro,netflix,http://www.netflix.com/title/60032294
@@ -93,8 +91,6 @@ KENGAN ASHURA Part I,netflix,http://www.netflix.com/title/80992228
 KENGAN ASHURA Part II,netflix,http://www.netflix.com/title/80992228
 KENGAN ASHURA Season 2,netflix,http://www.netflix.com/title/80992228
 Bubble,netflix,http://www.netflix.com/title/81345945
-Black Butler II,netflix,http://www.netflix.com/title/70204955
-Black Butler II: OVA,netflix,http://www.netflix.com/title/70204955
 BAKI,netflix,http://www.netflix.com/title/80204451
 Baki: The Great Raitai Tournament Saga,netflix,http://www.netflix.com/title/80204451
 Great Pretender,netflix,http://www.netflix.com/title/81220435
@@ -107,8 +103,6 @@ BEASTARS Season 2,netflix,http://www.netflix.com/title/81054847
 Kakegurui,netflix,http://www.netflix.com/title/80175351
 Kakegurui xx,netflix,http://www.netflix.com/title/80175351
 Kotaro Lives Alone,netflix,http://www.netflix.com/title/81275353
-PSYCHO-PASS,netflix,http://www.netflix.com/title/80006146
-PSYCHO-PASS 2,netflix,http://www.netflix.com/title/80006146
 SHAMAN KING (2021),netflix,http://www.netflix.com/title/81239555
 Shaman King,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.60ba5b67-e53b-1358-de8f-fe8ac94b49d0
 Kimi ni Todoke: From Me to You,netflix,http://www.netflix.com/title/80236253
@@ -156,9 +150,7 @@ Thermae Romae Novae,netflix,http://www.netflix.com/title/81264354
 Ghost in the Shell: SAC_2045,netflix,http://www.netflix.com/title/81030224
 Ghost in the Shell: SAC_2045 Season 2,netflix,http://www.netflix.com/title/81030224
 Castle in the Sky,netflix,http://www.netflix.com/title/60027393
-Magi: The Labyrinth of Magic,netflix,http://www.netflix.com/title/80009097
-Magi: The Kingdom of Magic,"netflix,crunchyroll","http://www.netflix.com/title/80009097,https://www.crunchyroll.com/pt-br/series/GY09XN14Y/magi"
-Magi: Adventure of Sinbad,netflix,http://www.netflix.com/title/80103331
+Magi: The Kingdom of Magic,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY09XN14Y/magi
 Mobile Suit Gundam III: Encounters in Space,netflix,http://www.netflix.com/title/70014613
 Mobile Suit Gundam: Char's Counterattack,"netflix,crunchyroll","http://www.netflix.com/title/60024179,https://www.crunchyroll.com/pt-br/series/GKEH2G9XV/mobile-suit-gundam"
 Godzilla Singular Point,netflix,http://www.netflix.com/title/80234811
@@ -175,7 +167,7 @@ Scissor Seven,netflix,http://www.netflix.com/title/81156880
 Scissor Seven Season 2,netflix,http://www.netflix.com/title/81156880
 Scissor Seven Season 3,netflix,http://www.netflix.com/title/81156880
 Wu Liuqi: Anying Suming,netflix,http://www.netflix.com/title/81156880
-"One Piece: The Desert Princess and the Pirates, Adventures in Alabasta",netflix,http://www.netflix.com/title/70086565
+"One Piece: The Desert Princess and the Pirates, Adventures in Alabasta","netflix,primevideo","http://www.netflix.com/title/70086565,https://www.primevideo.com/-/pt/detail/0QON32QPU4D4Y5CC72EENEQ8MB"
 Porco Rosso,netflix,http://www.netflix.com/title/70019060
 Kakegurui Twin,netflix,http://www.netflix.com/title/81176966
 A Whisker Away,netflix,http://www.netflix.com/title/81281872
@@ -185,7 +177,7 @@ Only Yesterday,netflix,http://www.netflix.com/title/80092922
 Dinosaur King,"netflix,primevideo","http://www.netflix.com/title/80007912,https://app.primevideo.com/detail?gti=amzn1.dv.gti.a8b54f46-d052-151c-1100-eec1864aa635"
 Thus Spoke Rohan Kishibe,netflix,http://www.netflix.com/title/81280998
 Rilakkuma's Theme Park Adventure,netflix,http://www.netflix.com/title/81341765
-One Piece Film: Strong World,netflix,http://www.netflix.com/title/80998781
+One Piece Film: Strong World,"netflix,primevideo","http://www.netflix.com/title/80998781,https://www.primevideo.com/-/pt/detail/0LI4D5QK9N4LGPKKRYQZK0OFBJ"
 The Tale of The Princess Kaguya,netflix,http://www.netflix.com/title/80013552
 Mobile Suit Gundam II: Soldiers of Sorrow,netflix,http://www.netflix.com/title/70014612
 Teasing Master Takagi-san Season 2,netflix,http://www.netflix.com/title/80228274
@@ -193,7 +185,7 @@ STAND BY ME Doraemon,netflix,http://www.netflix.com/title/80158156
 Eden,netflix,http://www.netflix.com/title/80992783
 Back Street Girls -GOKUDOLS-,netflix,http://www.netflix.com/title/80996957
 Godzilla: Planet of the Monsters,netflix,http://www.netflix.com/title/80180373
-The Irregular at Magic High School,"netflix,crunchyroll","http://www.netflix.com/title/80009361,https://www.crunchyroll.com/pt-br/series/GRMGDGZVR/the-irregular-at-magic-high-school"
+The Irregular at Magic High School,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRMGDGZVR/the-irregular-at-magic-high-school
 Child of Kamiari Month,netflix,http://www.netflix.com/title/81478031
 My Neighbors the Yamadas,netflix,http://www.netflix.com/title/70035035
 Baki Hanma,netflix,http://www.netflix.com/title/81236338
@@ -203,7 +195,7 @@ Hi Score Girl II,netflix,http://www.netflix.com/title/80997338
 Sailor Moon S Movie: Hearts in Ice,netflix,http://www.netflix.com/title/80116992
 Pokémon: Mewtwo Strikes Back—Evolution,netflix,http://www.netflix.com/title/81223075
 Fate/Grand Order: First Order,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYNQ3N8ZY/fategrand-order-first-order
-One Piece Film: Z,netflix,http://www.netflix.com/title/80198443
+One Piece Film: Z,"netflix,primevideo","http://www.netflix.com/title/80198443,https://www.primevideo.com/-/pt/detail/0T0UOEYDK8EFV55KDCDNAH8F7B"
 Blue Period,netflix,http://www.netflix.com/title/81318842
 Kuroko's Basketball: Last Game,netflix,http://www.netflix.com/title/80991755
 A.I.C.O. -Incarnation-,netflix,http://www.netflix.com/title/80161848
@@ -233,8 +225,8 @@ Beyblade Burst Evolution,primevideo,https://www.primevideo.com/detail/0IPGF8JRL0
 CYBORG009 CALL OF JUSTICE 1,netflix,http://www.netflix.com/title/80057749
 CYBORG009 CALL OF JUSTICE 2,netflix,http://www.netflix.com/title/80057749
 CYBORG009 CALL OF JUSTICE 3,netflix,http://www.netflix.com/title/80057749
-Mobile Suit GUNDAM Iron Blooded Orphans,"netflix,crunchyroll","http://www.netflix.com/title/80150290,https://www.crunchyroll.com/pt-br/series/GYQ4QK446/mobile-suit-gundam-iron-blooded-orphans"
-Mobile Suit GUNDAM Iron Blooded Orphans 2,"netflix,crunchyroll","http://www.netflix.com/title/80150290,https://www.crunchyroll.com/pt-br/series/GYQ4QK446/mobile-suit-gundam-iron-blooded-orphans"
+Mobile Suit GUNDAM Iron Blooded Orphans,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ4QK446/mobile-suit-gundam-iron-blooded-orphans
+Mobile Suit GUNDAM Iron Blooded Orphans 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ4QK446/mobile-suit-gundam-iron-blooded-orphans
 Ocean Waves,netflix,https://www.netflix.com/title/80158668
 Glitter Force,netflix,https://www.netflix.com/title/80057968
 Glitter Force Doki Doki,netflix,http://www.netflix.com/title/80175619
@@ -284,8 +276,6 @@ Captain Tsubasa,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.39
 INUYASHIKI LAST HERO,"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.1aaf83c1-1aca-5910-2e10-83c7df414fd2,https://www.crunchyroll.com/pt-br/series/G8DHV7E9Q/inuyashiki-last-hero"
 BANANA FISH,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.7cb23492-1c4f-6349-0b84-ac064288e062
 Evangelion: 2.0 You Can (Not) Advance,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.16bb13fa-9fa6-f959-a23b-451385d7c5af
-PSYCHO-PASS 3,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.52b6fb73-82ab-8243-501f-9979f507336d
-PSYCHO-PASS 3: First Inspector,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.80b883a7-a32c-7373-984b-21672259d355
 Captain Tsubasa (2018),"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.64b96153-e0e5-92c9-79b9-6bce2f31c475,https://www.crunchyroll.com/pt-br/series/GZJH3D7G9/captain-tsubasa"
 Evangelion: 3.0 You Can (Not) Redo,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.5ebb13fa-46fc-2060-26ed-2701c8760bd7
 Karakuri Circus,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.a2b32f8a-c5df-4399-c3b8-3972bc6548f5
@@ -369,7 +359,7 @@ Your Name.,hbomax,https://play.hbomax.com/feature/urn:hbo:feature:GYIjjJwrPnZGxL
 Dragon Ball,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV7W21/dragon-ball
 Dragon Ball GT,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WXXM/dragon-ball-gt
 Dragon Ball Super,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR19V7816/dragon-ball-super
-Dragon Ball Super: SUPER HERO,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Dragon Ball Super: SUPER HERO,"crunchyroll,primevideo","https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies,https://www.primevideo.com/-/pt/detail/0GNHIAM1HBERWNE41GEVOV7SJ0"
 Dragon Ball Z Kai,"hbomax,crunchyroll","https://play.hbomax.com/episode/urn:hbo:episode:GYyHkPQe8CBagoQEAAAAx,https://www.crunchyroll.com/pt-br/series/GMEHMEWP0/dragon-ball-z-kai"
 Dragon Ball Z Kai: The Final Chapters,"hbomax,crunchyroll","https://play.hbomax.com/page/urn:hbo:page:GY0XU4AhXXsPCUAEAAAA3:type:series,https://www.crunchyroll.com/pt-br/series/GMEHMEWP0/dragon-ball-z-kai"
 Fairy Tail,hbomax,https://play.hbomax.com/episode/urn:hbo:episode:GYoy0UgWX-X-zwgEAAAAD
@@ -1492,12 +1482,12 @@ Nanana's Buried Treasure,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY
 NANBAKA,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5PP7EY/nanbaka
 NANBAKA - Part Two,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5PP7EY/nanbaka
 Nanbaka: Idiots with Student Numbers!,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5PP7EY/nanbaka
-Naruto: Shippuden,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GYQ4MW246/naruto-shippuden,http://www.netflix.com/title/80000603"
-Naruto Shippuden the Movie,netflix,https://www.netflix.com/title/70124999
-Naruto Shippuden the Movie: Bonds,netflix,https://www.netflix.com/title/70105699
-Naruto Shippuden the Movie: The Will of Fire,netflix,https://www.netflix.com/title/80045673
-Naruto Shippuden the Movie: The Lost Tower,netflix,https://www.netflix.com/title/70275937
-Naruto Shippuden the Movie: Blood Prison,netflix,https://www.netflix.com/title/80152537
+Naruto: Shippuden,"crunchyroll,netflix,primevideo","https://www.crunchyroll.com/pt-br/series/GYQ4MW246/naruto-shippuden,http://www.netflix.com/title/80000603,https://www.primevideo.com/-/pt/detail/0ROS0WALESTSEVUOHWKIZAS6WS"
+Naruto Shippuden the Movie,"netflix,primevideo","https://www.netflix.com/title/70124999,https://www.primevideo.com/-/pt/detail/0GKWVAR7713J3OEOFLDBU49Z48"
+Naruto Shippuden the Movie: Bonds,"netflix,primevideo","https://www.netflix.com/title/70105699,https://www.primevideo.com/-/pt/detail/0HJLKTQT4EPAXFBO6V9KQLA1BI"
+Naruto Shippuden the Movie: The Will of Fire,"netflix,primevideo","https://www.netflix.com/title/80045673,https://www.primevideo.com/-/pt/detail/0PTTTN8OBPPPY5YVCZ40MQ10X9"
+Naruto Shippuden the Movie: The Lost Tower,"netflix,primevideo","https://www.netflix.com/title/70275937,https://www.primevideo.com/-/pt/detail/0MKNTTOUI03PHRPRTDIK1IGA0J"
+Naruto Shippuden the Movie: Blood Prison,"netflix,primevideo","https://www.netflix.com/title/80152537,https://www.primevideo.com/-/pt/detail/0LYA64I4KL25GZ1LMXC71C8RNV"
 NARUTO Spin-Off: Rock Lee & His Ninja Pals,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR9PV4ED6/naruto-spin-off-rock-lee--his-ninja-pals
 Natsume's Book of Friends,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYGGPPW7Y/natsume-yujin-cho
 Natsume's Book of Friends 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYGGPPW7Y/natsume-yujin-cho
@@ -1563,13 +1553,13 @@ Ojisan to Marshmallow: Hige-san and Marshmallow,crunchyroll,https://www.crunchyr
 Okami-san and Her Seven Companions,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR19EKQV6/okami-san-and-her-seven-companions
 Omamori Himari,crunchyroll,https://www.crunchyroll.com/pt-br/series/G609Z3VE6/omamori-himari
 Onara Gorou,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VN1Z9Y/onara-goro
-ONE PIECE,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece
-One Piece 3D2Y: Overcome Ace’s Death! Luffy’s Vow to his Friends,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679587"
+ONE PIECE,"netflix,hbomax,crunchyroll","http://www.netflix.com/title/80107103,https://play.hbomax.com/page/urn:hbo:page:GYmhnMggKRBymmwEAAADe:type:series,https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece"
+One Piece 3D2Y: Overcome Ace’s Death! Luffy’s Vow to his Friends,"crunchyroll,netflix,primevideo","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679587,https://www.primevideo.com/-/pt/detail/0KR9037XW70BYJEMABQBCCPIXD"
 One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece
-One Piece: Adventure of Nebulandia,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679588"
-One Piece: Heart of Gold,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679591"
-One Piece: Episode of East Blue,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679589"
-One Piece: Episode of Skypiea,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679590"
+One Piece: Adventure of Nebulandia,"crunchyroll,netflix,primevideo","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679588,https://www.primevideo.com/-/pt/detail/0NX59AP0S6KRSATSFAV7Q02K2V"
+One Piece: Heart of Gold,"crunchyroll,netflix,primevideo","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679591,https://www.primevideo.com/-/pt/detail/0LZAVVT5BGVMCR2JRSO4H1YTQ5"
+One Piece: Episode of East Blue,"crunchyroll,netflix,primevideo","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679589,https://www.primevideo.com/-/pt/detail/0KK3SCDHYQXQRS2Y093BMXM9T1"
+One Piece: Episode of Skypiea,"crunchyroll,netflix,primevideo","https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece,https://www.netflix.com/title/81679590,https://www.primevideo.com/-/pt/detail/0K0R36JLNX8MJLPSR94TAF319C"
 My Big Sister Arrived,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDQVM3KY/onee-chan-ga-kita
 OneRoom,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5JGZ1Y/oneroom
 One Room SECOND SEASON,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5JGZ1Y/oneroom
@@ -1613,7 +1603,7 @@ Ozmafia!!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRK5PDW96/ozmafia
 Pan de Peace!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49M5536/pan-de-peace
 Parallel World Pharmacy,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1NJJD/parallel-world-pharmacy
 Paranoia Agent,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNMW8E/paranoia-agent
-Parasyte -the maxim-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K53VGGY/parasyte--the-maxim-
+Parasyte -the maxim-,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G6K53VGGY/parasyte--the-maxim-,https://www.netflix.com/title/80191008"
 Pastel Memories,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY0XZ8276/pastel-memories
 Peacemaker Kurogane: Belief,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVD1337R/peace-maker-kurogane
 Peacemaker Kurogane: Friend,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVD1337R/peace-maker-kurogane
@@ -2380,8 +2370,8 @@ Saint Cecilia & Pastor Lawrence,crunchyroll,https://www.crunchyroll.com/pt-br/se
 Synduality Noir,starplus,https://www.starplus.com/pt-br/series/synduality-noir/6Wyhb8bQ9XDr
 BLEACH: Thousand-Year Blood War - The Separation,starplus,https://www.starplus.com/pt-br/series/bleach-thousand-year-blood-war/4Afet1Q421gy
 My Happy Marriage,netflix,https://www.netflix.com/title/81564905
-PSYCHO-PASS 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass
-PSYCHO-PASS 3: First Inspector,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass
+PSYCHO-PASS 3,"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.52b6fb73-82ab-8243-501f-9979f507336d,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass"
+PSYCHO-PASS 3: First Inspector,"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.80b883a7-a32c-7373-984b-21672259d355,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass"
 Record of Ragnarok II Part 2,netflix,https://www.netflix.com/title/81281579
 The Devil is a Part-Timer!! Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR75Z5KKY/the-devil-is-a-part-timer
 Link Click Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8E81/link-click
@@ -2505,3 +2495,30 @@ IDOLiSH7 the Movie LIVE 4bit BEYOND THE PERIOD Day 1,crunchyroll,https://www.cru
 IDOLiSH7 the Movie LIVE 4bit BEYOND THE PERIOD Day 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRE50NQV6/idolish7
 Love Live! Nijigasaki High School Idol Club: NEXT SKY,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63W41WQ6/love-live-nijigasaki-high-school-idol-club
 Heaven Official's Blessing Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23XX8/heaven-officials-blessing
+Suzume,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8425/suzume
+Scott Pilgrim Takes Off,netflix,https://www.netflix.com/title/81153115
+Onmyoji,netflix,https://www.netflix.com/title/81215624
+My Hero Academia UA BATTLE HEROES,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia
+Dragon Ball Z: Broly - The Legendary Super Saiyan,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Dragon Ball Z: Bojack Unbound,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Dragon Ball Z: Broly - Second Coming,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Dragon Ball Z: Bio-Broly,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Dragon Ball Z: Fusion Reborn,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Dragon Ball Z: Wrath of the Dragon,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1GG/dragon-ball-movies
+Rick and Morty vs. Genocider,hbomax,https://play.hbomax.com/page/urn:hbo:page:GYWmlpQcpLwi6kwEAAAAQ:type:feature
+Summer Meets God (Rick Meets Evil),hbomax,https://play.hbomax.com/page/urn:hbo:page:GYXL27g6U0ZqEvwEAAABs:type:feature
+Rick and Morty: The Great Yokai Battle of Akihabara,hbomax,https://play.hbomax.com/page/urn:hbo:page:GYhfpqgCOEcLCwwEAAADn:type:feature
+Akame ga Kill!,netflix,https://www.netflix.com/title/80052714
+Monthly Girls' Nozaki-kun,netflix,https://www.netflix.com/title/80081848
+Is It Wrong to Try to Pick Up Girls in a Dungeon?,netflix,https://www.netflix.com/title/80185873
+"No Game, No Life",netflix,https://www.netflix.com/title/80052669
+"No Game, No Life Zero",netflix,https://www.netflix.com/title/81068687
+FLCL: Shoegaze,hbomax,https://play.hbomax.com/page/urn:hbo:page:GZPIzPAYmM6i6wgEAAAAC:type:episode
+Road to Ninja: Naruto the Movie,primevideo,https://www.primevideo.com/-/pt/detail/0P38OB8YC61ZJU5C5XJHRIAFS0
+The Last: Naruto the Movie,primevideo,https://www.primevideo.com/-/pt/detail/0SLRBF5CA8YU31PE29TC4D3YFZ
+Saint Seiya: The Heated Battle of the Gods,primevideo,https://www.primevideo.com/-/pt/detail/0QJUAE67TYXN5XKWOPGGC3KIZO
+Saint Seiya: Warriors of the Final Holy Battle,primevideo,https://www.primevideo.com/-/pt/detail/0MDU5W9M6G26901ZZU1BCDLAOY
+Saint Seiya: The Heaven Chapter - Overture,primevideo,https://www.primevideo.com/-/pt/detail/0GA7TMGEVI1S0M4TSQTKD0RLY2
+Saint Seiya: Evil Goddess Eris,primevideo,https://www.primevideo.com/-/pt/detail/0J9AYIL76ITTC8OOPUHUGMML5H
+Undead Unluck,starplus,https://www.starplus.com/pt-br/series/undead-unluck/6yBbjezPBwNW
+PSYCHO-PASS: Providence,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1NWPJ/psycho-pass-providence
