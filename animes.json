@@ -3757,7 +3757,7 @@
    "751": {
       "Nome": "Delicious Party Pretty Cure",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XE73/delicious-party-pretty-cure"
+      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XE73/delicious-party-precure"
    },
    "752": {
       "Nome": "DEMIAN",
@@ -5107,7 +5107,7 @@
    "1021": {
       "Nome": "Healin' Good Pretty Cure",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GY9V4N8ER/healin-good-pretty-cure"
+      "Url": "https://www.crunchyroll.com/pt-br/series/GY9V4N8ER/healin-good-precure"
    },
    "1022": {
       "Nome": "Heaven Official's Blessing Special Episode",
@@ -5987,7 +5987,7 @@
    "1197": {
       "Nome": "KIRA KIRA\u2606PRETTY CURE A LA MODE",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G6W47P0ER/kira-kirapretty-cure-a-la-mode"
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6W47P0ER/kira-kiraprecure-a-la-mode"
    },
    "1198": {
       "Nome": "Kiratto Pri\u2606chan",
@@ -9187,7 +9187,7 @@
    "1837": {
       "Nome": "Soaring Sky! Pretty Cure",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM55N/soaring-sky-pretty-cure"
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM55N/soaring-sky-precure"
    },
    "1838": {
       "Nome": "Solty Rei",
@@ -12618,5 +12618,15 @@
       "Nome": "Kaina of the Great Snow Sea: Star Sage",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G79H23XVZ/kaina-of-the-great-snow-sea"
+   },
+   "2524": {
+      "Nome": "Pok\u00e9mon Concierge",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81186864"
+   },
+   "2525": {
+      "Nome": "Dropkick on My Devil!!: Apocalypse Day",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G62487M9Y/dropkick-on-my-devil"
    }
 }
