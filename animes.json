@@ -5541,13 +5541,13 @@
    },
    "1108": {
       "Nome": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G6DQN9KGR/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6DQN9KGR/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon,https://www.netflix.com/title/80185873"
    },
    "1109": {
       "Nome": "Is It Wrong to Try to Pick Up Girls in a Dungeon? III",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G6DQN9KGR/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6DQN9KGR/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon,https://www.netflix.com/title/80185873"
    },
    "1110": {
       "Nome": "Is the Order a Rabbit? BLOOM",
@@ -12628,5 +12628,10 @@
       "Nome": "Dropkick on My Devil!!: Apocalypse Day",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G62487M9Y/dropkick-on-my-devil"
+   },
+   "2526": {
+      "Nome": "Fluffy Paradise",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D858/fluffy-paradise"
    }
 }
