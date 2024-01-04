@@ -5,7 +5,10 @@ package-lock.json
 node_modules
 *-cleaned.csv
 *-cleaned.json
-ignoreList
 handling_files/crunchyroll_web_scrap.js
 handling_files/crunchyrollCheckNewTitles.py
 handling_files/crunchyrollCheckRemoveTitles.py
+patchnotes.md
+newTitlesCrunchyroll.csv
+update.sh
+removeTitlesCrunchyroll.csv

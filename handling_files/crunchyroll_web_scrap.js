@@ -16,11 +16,11 @@ const browser = await puppeteer.launch({
 });
 const page = await browser.newPage();
 await page.goto(url);
-await new Promise(r => setTimeout(r, 3000));
+await new Promise(r => setTimeout(r, 800));
 
-while (page_count<126)
+while (page_count<201)
 {
-  console.log('Page:',page_count,'/125')
+  console.log('Page:',page_count,'/200')
   const html= await page.content();
   let $= cheerio.load(html);
   let $a= $('div > a')
@@ -43,8 +43,8 @@ while (page_count<126)
         }
       }
   }
-  await scrollPageToBottom(page, { size: 2000,stepsLimit: 1})
-  await new Promise(r => setTimeout(r, 2000));
+  await scrollPageToBottom(page, { size: 1200,stepsLimit: 1})
+  await new Promise(r => setTimeout(r, 1200));
   page_count=page_count+1
 }
 await browser.close();
