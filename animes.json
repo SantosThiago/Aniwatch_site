@@ -10342,7 +10342,7 @@
    "2068": {
       "Nome": "The Sacred Blacksmith",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G6ME4XJ4R/the-sacred-blacksmith"
+      "Url": "https://www.crunchyroll.com/pt-br/series/GR49GQDV6/seiken-no-blacksmith"
    },
    "2069": {
       "Nome": "The Saint's Magic Power is Omnipotent",
@@ -12593,5 +12593,30 @@
       "Nome": "Delicious in Dungeon",
       "Streaming": "netflix",
       "Url": "https://www.netflix.com/title/81564899"
+   },
+   "2519": {
+      "Nome": "Mina",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GQWH0M18K/mina"
+   },
+   "2520": {
+      "Nome": "Sasaki and Peeps",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G5PHNM935/sasaki-and-peeps"
+   },
+   "2521": {
+      "Nome": "The Demon Prince of Momochi House",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQP4/the-demon-prince-of-momochi-house"
+   },
+   "2522": {
+      "Nome": "The Unwanted Undead Adventurer",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM7WZQ/the-unwanted-undead-adventurer"
+   },
+   "2523": {
+      "Nome": "The Wrong Way to Use Healing Magic",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM1EK/the-wrong-way-to-use-healing-magic"
    }
 }
