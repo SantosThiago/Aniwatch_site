@@ -7,7 +7,9 @@ if [ "$branch" == 'On branch main' ]; then
     git commit -m "v1.0.$release_num"
     git push
     git checkout release
-    git merge main
+    git checkout main -- animes.json
+    git checkout main -- animes.csv
+    git commit -m "v1.0.$release_num"
     git push
     git tag v1.0.$release_num
     git push origin v1.0.$release_num
