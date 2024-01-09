@@ -49,9 +49,18 @@ for i in range(len(split_added)):
         added_titles[title]=streaming
 
     if len(split2)>3:
-        if split2[0] == '':
+        if split2[0] == '' and split2[2] != '':
             title=split2[1]
             streaming=split2[3]
+
+        elif split2[0] == '' and split2[2] == '':
+            for item in split2:
+                if 'https' in item:
+                    index=split2.index(item)
+            
+            title=''.join(split2[:index])
+            new_split=split2[index].split(',')
+            streaming=new_split[1]
 
         else:
             title=split2[0].split(',')[0]
