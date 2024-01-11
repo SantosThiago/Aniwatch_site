@@ -21,17 +21,17 @@ for i in range(len(split_removed)):
     split2=split_removed[i].split('"')
 
     if len(split2)<3 and split2[0]!='':
-        title=split2[0].split(',')[0]
+        title=split2[0].split(',')[0].lower()
         streaming=split2[0].split(',')[1]
         removed_titles[title]=streaming
 
     if len(split2)==3:
-        title=split2[1]
+        title=split2[1].lower()
         streaming=split2[2].split(',')[1]
         removed_titles[title]=streaming
 
     if len(split2)>3:
-        title=split2[0].split(',')[0]
+        title=split2[0].split(',')[0].lower()
         streaming=split2[1]
         removed_titles[title]=streaming
 
@@ -39,18 +39,18 @@ for i in range(len(split_added)):
     split2=split_added[i].split('"')
 
     if len(split2)<3 and split2[0]!='':
-        title=split2[0].split(',')[0]
+        title=split2[0].split(',')[0].lower()
         streaming=split2[0].split(',')[1]
         added_titles[title]=streaming
 
     if len(split2)==3:
-        title=split2[1]
+        title=split2[1].lower()
         streaming=split2[2].split(',')[1]
         added_titles[title]=streaming
 
     if len(split2)>3:
         if split2[0] == '' and split2[2] != '':
-            title=split2[1]
+            title=split2[1].lower()
             streaming=split2[3]
 
         elif split2[0] == '' and split2[2] == '':
@@ -58,12 +58,12 @@ for i in range(len(split_added)):
                 if 'https' in item:
                     index=split2.index(item)
             
-            title=''.join(split2[:index])
+            title=''.join(split2[:index]).lower()
             new_split=split2[index].split(',')
             streaming=new_split[1]
 
         else:
-            title=split2[0].split(',')[0]
+            title=split2[0].split(',')[0].lower()
             streaming=split2[1]
 
         added_titles[title]=streaming
