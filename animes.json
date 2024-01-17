@@ -12535,7 +12535,7 @@
       "Url": "https://www.crunchyroll.com/pt-br/series/G24H1NWPJ/psycho-pass-providence"
    },
    "2507": {
-      "Nome": "Xian Wang De Richang Shenghuo 4",
+      "Nome": "The Daily Life of the Immortal King Season 4",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king"
    },
@@ -12758,5 +12758,15 @@
       "Nome": "Kingdom Season 5",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GRWE89KMR/kingdom"
+   },
+   "2552": {
+      "Nome": "Manyu Scroll",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM1VK/manyu-scroll"
+   },
+   "2553": {
+      "Nome": "Theatre of Darkness: Yamishibai 12",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6WEM1V36/theatre-of-darkness-yamishibai"
    }
 }
