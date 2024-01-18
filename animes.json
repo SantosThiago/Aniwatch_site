@@ -3771,8 +3771,8 @@
    },
    "754": {
       "Nome": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba,http://www.netflix.com/title/81091393"
    },
    "755": {
       "Nome": "DENKI-GAI",
@@ -12768,5 +12768,10 @@
       "Nome": "Theatre of Darkness: Yamishibai 12",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G6WEM1V36/theatre-of-darkness-yamishibai"
+   },
+   "2554": {
+      "Nome": "maboroshi",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/br/title/81450803"
    }
 }
