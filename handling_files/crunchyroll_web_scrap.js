@@ -44,7 +44,7 @@ while (page_count<301)
       }
   }
   await scrollPageToBottom(page, { size: 800,stepsLimit: 1})
-  await new Promise(r => setTimeout(r, 800));
+  await new Promise(r => setTimeout(r, 2000));
   page_count=page_count+1
 }
 await browser.close();

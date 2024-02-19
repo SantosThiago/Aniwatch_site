@@ -48,7 +48,7 @@ const query =
         perPage
       }
 
-       media (type: ANIME,isAdult: false, search: $search, sort: TRENDING_DESC)
+       media (type: ANIME,isAdult: false, search: $search, sort: POPULARITY_DESC)
       {
         episodes
         format
