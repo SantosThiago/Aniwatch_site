@@ -212,7 +212,7 @@ function check_Links(romaji,english) {
             });
           }
       
-          else if (streaming == 'hbomax') {
+          else if (streaming == 'max') {
             urls=elem['Url'].split(',');
             urls.forEach(function(url){
               if (url.includes(streaming))
@@ -283,7 +283,7 @@ function check_Links(romaji,english) {
               new_urls.push(urls);
           }
       
-          else if (streamings == 'hbomax') {
+          else if (streamings == 'max') {
             if (urls.includes(',')){
               urls=elem['Url'].split(',');
               urls.forEach(function(url){
@@ -470,10 +470,10 @@ function add_Card(image, romaji, Links, anilistUrl, episodes, format, duration) 
       streamings.appendChild(streamingsElement);
     }
 
-    else if (link.includes('hbomax')) {
-      let streamingIcon = nodeFactory('img', 'Icons/hbomaxIcon.webp', 'streamingIcon');
+    else if (link.includes('max')) {
+      let streamingIcon = nodeFactory('img', 'Icons/maxIcon.webp', 'streamingIcon');
       let streamingsElement = nodeFactory('a', 'streaming');
-      streamingIcon.name = 'hbomax';
+      streamingIcon.name = 'max';
       streamingsElement.href = link;
       streamingsElement.target = '_blank';
       streamingsElement.appendChild(streamingIcon);
