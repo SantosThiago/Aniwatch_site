@@ -161,18 +161,18 @@
    },
    "32": {
       "Nome": "Sword Art Online: Alicization",
-      "Streaming": "netflix,crunchyroll",
-      "Url": "http://www.netflix.com/title/70302573,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online"
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online\""
    },
    "33": {
       "Nome": "Sword Art Online: Alicization - War of Underworld",
-      "Streaming": "netflix,crunchyroll",
-      "Url": "http://www.netflix.com/title/70302573,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online"
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online\""
    },
    "34": {
       "Nome": "Sword Art Online: Alicization - War of Underworld Part 2",
-      "Streaming": "netflix,crunchyroll",
-      "Url": "http://www.netflix.com/title/70302573,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online"
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online\""
    },
    "35": {
       "Nome": "Hajime no Ippo The Fighting",
@@ -12933,5 +12933,55 @@
       "Nome": "Lupin III: The First",
       "Streaming": "primevideo",
       "Url": "https://www.primevideo.com/region/na/detail/0Q66XLSZOEQIFKINYXC69SZG3E"
+   },
+   "2587": {
+      "Nome": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride"
+   },
+   "2588": {
+      "Nome": "A Condition Called Love",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GP5HJ84QX/a-condition-called-love"
+   },
+   "2589": {
+      "Nome": "WIND BREAKER",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVDPE/wind-breaker"
+   },
+   "2590": {
+      "Nome": "A Salad Bowl of Eccentrics",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX85VN/a-salad-bowl-of-eccentrics"
+   },
+   "2591": {
+      "Nome": "Laid-Back Camp Season 3",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GRWEW95KR/laid-back-camp"
+   },
+   "2592": {
+      "Nome": "NIJIYON ANIMATION 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM75PP/nijiyon-animation"
+   },
+   "2593": {
+      "Nome": "Astro Note",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G8DHV78D7/astro-note"
+   },
+   "2594": {
+      "Nome": "The Irregular at Magic High School Season 3",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GRMGDGZVR/the-irregular-at-magic-high-school"
+   },
+   "2595": {
+      "Nome": "HIGHSPEED \u00c9toile",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D879/highspeed-toile"
+   },
+   "2596": {
+      "Nome": "That Time I Got Reincarnated as a Slime Season 3",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
    }
 }
