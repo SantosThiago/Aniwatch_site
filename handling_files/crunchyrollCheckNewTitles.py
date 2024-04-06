@@ -4,6 +4,7 @@ import pandas as pd
 
 ind=0
 urls=[]
+titles=[]
 new_data=[]
 file='animes-pt-br-crunchyroll-not-cleaned.json'
 
@@ -20,6 +21,8 @@ for i in range(len(ignoreList)):
     ignoreList[i]=ignoreList[i].replace('\n','')
 
 for key2 in dic_animes:
+    titles.append(dic_animes[key2]['Nome'])
+
     if ',' in dic_animes[key2]['Url']:
         split=dic_animes[key2]['Url'].split(',')
         for i in range(len(split)):
@@ -33,7 +36,7 @@ for key in dic:
     streaming=dic[key]['Streaming']
     url=dic[key]['Url']
 
-    if url not in urls and title not in ignoreList:
+    if (url not in urls or title not in titles) and title not in ignoreList:
         new_data.append([title,streaming,url])
 
 if new_data != []:
