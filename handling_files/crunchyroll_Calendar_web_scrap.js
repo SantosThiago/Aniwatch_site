@@ -47,3 +47,4 @@ await browser.close();
 fs.writeFile('animes-pt-br-crunchyroll-not-cleaned.json',JSON.stringify(database,null,4), (err) => {
   if (err)
     console.log(err);})
+  
