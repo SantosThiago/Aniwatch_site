@@ -31,9 +31,9 @@ MAKE MY DAY,netflix,http://www.netflix.com/title/81176967
 Neon Genesis Evangelion,netflix,http://www.netflix.com/title/81033445
 Neon Genesis Evangelion: The End of Evangelion,netflix,https://www.netflix.com/title/60024788
 Neon Genesis Evangelion: Death & Rebirth,netflix,https://www.netflix.com/title/81033473
-Sword Art Online: Alicization,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online"
-Sword Art Online: Alicization - War of Underworld,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online"
-Sword Art Online: Alicization - War of Underworld Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online"
+Sword Art Online: Alicization,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online
+Sword Art Online: Alicization - War of Underworld,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online
+Sword Art Online: Alicization - War of Underworld Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online
 Hajime no Ippo The Fighting,netflix,http://www.netflix.com/title/80995578
 Howl‘s Moving Castle,netflix,http://www.netflix.com/title/70028883
 Princess Mononoke,netflix,http://www.netflix.com/title/28630857
@@ -108,7 +108,7 @@ Shaman King,primevideo,https://app.primevideo.com/detail?gti=amzn1.dv.gti.60ba5b
 Kimi ni Todoke: From Me to You,netflix,http://www.netflix.com/title/80236253
 Kimi ni Todoke: From Me to You Season 2,netflix,http://www.netflix.com/title/80236253
 The Seven Deadly Sins: Grudge of Edinburgh Part 1,netflix,http://www.netflix.com/title/81302750
-Heaven Official's Blessing,"netflix,crunchyroll","http://www.netflix.com/title/81364887,https://www.crunchyroll.com/pt-br/series/G79H23XX8/heaven-officials-blessing"
+Heaven Official's Blessing,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23XX8/heaven-officials-blessing
 GANTZ:O,netflix,http://www.netflix.com/title/80149259
 Toradora!,"netflix,crunchyroll","http://www.netflix.com/title/80049275,https://www.crunchyroll.com/pt-br/series/G6P8PXJW6/toradora"
 SPRIGGAN (ONA),netflix,http://www.netflix.com/title/81050064
@@ -2466,7 +2466,7 @@ IDOLiSH7 the Movie LIVE 4bit BEYOND THE PERIOD Day 1,crunchyroll,https://www.cru
 IDOLiSH7 the Movie LIVE 4bit BEYOND THE PERIOD Day 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRE50NQV6/idolish7
 Love Live! Nijigasaki High School Idol Club: NEXT SKY,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63W41WQ6/love-live-nijigasaki-high-school-idol-club
 Heaven Official's Blessing Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23XX8/heaven-officials-blessing
-Suzume,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8425/suzume
+Suzume,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GP5HJ8425/suzume,https://www.netflix.com/title/81696498"
 Scott Pilgrim Takes Off,netflix,https://www.netflix.com/title/81153115
 Onmyoji,netflix,https://www.netflix.com/title/81215624
 My Hero Academia UA BATTLE HEROES,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia
@@ -2596,3 +2596,19 @@ Astro Note,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV78D7/astro-
 The Irregular at Magic High School Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRMGDGZVR/the-irregular-at-magic-high-school
 HIGHSPEED Étoile,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3D879/highspeed-toile
 That Time I Got Reincarnated as a Slime Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime
+Dragon Raja -The Blazing Dawn-,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEJN0/dragon-raja-the-blazing-dawn-
+Tonari no Yokai-san,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1DX/tonari-no-yokai-san
+Sound! Euphonium 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDQNQW9Y/sound-euphonium
+The Duke of Death and His Maid Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23V0G/the-duke-of-death-and-his-maid
+Vampire Dormitory,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM130/vampire-dormitory
+Grandpa and Grandma Turn Young Again,crunchyroll,https://www.crunchyroll.com/pt-br/series/GW4HM7W99/grandpa-and-grandma-turn-young-again
+"As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world
+Chillin' in Another World with Level 2 Super Cheat Powers,crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers
+"Tadaima, Okaeri",crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23Z5X/tadaima-okaeri
+Unnamed Memory,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9QXQ/unnamed-memory
+Oblivion Battery,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3GDX/oblivion-battery
+The Many Sides of Voice Actor Radio,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WJ3N/the-many-sides-of-voice-actor-radio
+Mysterious Disappearances,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJV03M/mysterious-disappearances
+Date A Live V,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEX5E1G6/date-a-live
+KONOSUBA -God's blessing on this wonderful world! 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYE5K3GQR/konosuba-gods-blessing-on-this-wonderful-world
+Viral Hit,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7QGME/viral-hit
