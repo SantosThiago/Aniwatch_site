@@ -546,8 +546,8 @@
    },
    "109": {
       "Nome": "Heaven Official's Blessing",
-      "Streaming": "netflix,crunchyroll",
-      "Url": "http://www.netflix.com/title/81364887,https://www.crunchyroll.com/pt-br/series/G79H23XX8/heaven-officials-blessing"
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G79H23XX8/heaven-officials-blessing"
    },
    "110": {
       "Nome": "GANTZ:O",
@@ -6791,13 +6791,13 @@
    },
    "1358": {
       "Nome": "Mob Psycho 100",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100,https://www.netflix.com/title/80179798"
    },
    "1359": {
       "Nome": "Mob Psycho 100 II",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100,https://www.netflix.com/title/80179798"
    },
    "1360": {
       "Nome": "Mob Psycho 100 II: The First Spirits and Such Company Trip ~A Journey that Mends the Heart and Heals the Soul~",
@@ -6806,8 +6806,8 @@
    },
    "1361": {
       "Nome": "Mob Psycho 100 III",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100,https://www.netflix.com/title/80179798"
    },
    "1362": {
       "Nome": "Mob Psycho 100 REIGEN The Miraculous Unknown Psychic",
@@ -7871,8 +7871,8 @@
    },
    "1574": {
       "Nome": "Overlord",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord,https://www.netflix.com/title/80132110"
    },
    "1575": {
       "Nome": "Overlord II",
@@ -12336,8 +12336,8 @@
    },
    "2467": {
       "Nome": "Suzume",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GP5HJ8425/suzume"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GP5HJ8425/suzume,https://www.netflix.com/title/81696498"
    },
    "2468": {
       "Nome": "Scott Pilgrim Takes Off",
@@ -13018,5 +13018,90 @@
       "Nome": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world"
+   },
+   "2604": {
+      "Nome": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers"
+   },
+   "2605": {
+      "Nome": "Tadaima, Okaeri",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G79H23Z5X/tadaima-okaeri"
+   },
+   "2606": {
+      "Nome": "Unnamed Memory",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QXQ/unnamed-memory"
+   },
+   "2607": {
+      "Nome": "Oblivion Battery",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GXJHM3GDX/oblivion-battery"
+   },
+   "2608": {
+      "Nome": "The Many Sides of Voice Actor Radio",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G4PH0WJ3N/the-many-sides-of-voice-actor-radio"
+   },
+   "2609": {
+      "Nome": "Mysterious Disappearances",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV03M/mysterious-disappearances"
+   },
+   "2610": {
+      "Nome": "Date A Live V",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GYEX5E1G6/date-a-live"
+   },
+   "2611": {
+      "Nome": "KONOSUBA -God's blessing on this wonderful world! 3",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GYE5K3GQR/konosuba-gods-blessing-on-this-wonderful-world"
+   },
+   "2612": {
+      "Nome": "Viral Hit",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GJ0H7QGME/viral-hit"
+   },
+   "2613": {
+      "Nome": "Kurayukaba",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN9Z2/kurayukaba-kuramerukagari"
+   },
+   "2614": {
+      "Nome": "Kuramerukagari",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN9Z2/kurayukaba-kuramerukagari"
+   },
+   "2615": {
+      "Nome": "THE iDOLM@STER SHINY COLORS",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GKEH2G0ZK/the-idolmster-shiny-colors"
+   },
+   "2616": {
+      "Nome": "Black Butler: Public School Arc",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler"
+   },
+   "2617": {
+      "Nome": "THE NEW GATE",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GMEHME7Z1/the-new-gate"
+   },
+   "2618": {
+      "Nome": "YATAGARASU: The Raven Does Not Choose Its Master",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G5PHNM92J/yatagarasu-the-raven-does-not-choose-its-master"
+   },
+   "2619": {
+      "Nome": "GO! GO! Loser Ranger!",
+      "Streaming": "starplus",
+      "Url": "https://www.starplus.com/pt-br/series/go-go-loser-ranger/2VX5fKgeiVEl"
+   },
+   "2620": {
+      "Nome": "The Fable",
+      "Streaming": "starplus",
+      "Url": "https://www.starplus.com/pt-br/series/the-fable/5lo11H9f2Cg4"
    }
 }
