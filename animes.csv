@@ -17,7 +17,7 @@ Cowboy Bebop,"netflix,crunchyroll","http://www.netflix.com/title/80001305,https:
 Record of Ragnarok,netflix,http://www.netflix.com/title/81281579
 Record of Ragnarok II,netflix,http://www.netflix.com/title/81281579
 Berserk,netflix,http://www.netflix.com/title/80243876
-Boruto: Naruto Next Generations,"netflix,max,crunchyroll","http://www.netflix.com/title/81080523,https://play.max.com/show/865e96ad-64cf-4687-a8c8-186baed07129"
+Boruto: Naruto Next Generations,"netflix,crunchyroll","http://www.netflix.com/title/81080523,https://www.crunchyroll.com/pt-br/series/GR75Q020Y/boruto-naruto-next-generations"
 JoJo's Bizarre Adventure (TV),"netflix,crunchyroll","http://www.netflix.com/title/80179831,https://www.crunchyroll.com/pt-br/series/GYP8DP1MY/jojos-bizarre-adventure"
 JoJo's Bizarre Adventure: Stardust Crusaders,"netflix,crunchyroll","http://www.netflix.com/title/80179831,https://www.crunchyroll.com/pt-br/series/GYP8DP1MY/jojos-bizarre-adventure"
 JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt,"netflix,crunchyroll","http://www.netflix.com/title/80179831,https://www.crunchyroll.com/pt-br/series/GYP8DP1MY/jojos-bizarre-adventure"
@@ -115,8 +115,8 @@ SPRIGGAN (ONA),netflix,http://www.netflix.com/title/81050064
 "Modest Heroes: Ponoc Short Films Theatre, Volume 1",netflix,http://www.netflix.com/title/81143068
 Hellsing Ultimate,netflix,http://www.netflix.com/title/80988066
 Whisper of the Heart,netflix,http://www.netflix.com/title/70045021
-Sailor Moon Crystal,"netflix,crunchyroll","http://www.netflix.com/title/80145747,https://www.crunchyroll.com/pt-br/series/GYX019NPR/sailor-moon-crystal"
-Sailor Moon Crystal Season 3,"netflix,crunchyroll","http://www.netflix.com/title/80145747,https://www.crunchyroll.com/pt-br/series/GYX019NPR/sailor-moon-crystal"
+Sailor Moon Crystal,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYX019NPR/sailor-moon-crystal
+Sailor Moon Crystal Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYX019NPR/sailor-moon-crystal
 Sailor Moon S,netflix,http://www.netflix.com/title/70020763
 Sailor Moon R: The Movie,netflix,http://www.netflix.com/title/26588007
 Dragon Quest: Your Story,netflix,http://www.netflix.com/title/81170086
@@ -362,13 +362,12 @@ Dragon Ball Z Kai,"max,crunchyroll","https://play.max.com/show/a27c6df9-74f5-4ba
 Dragon Ball Z Kai: The Final Chapters,"max,crunchyroll","https://play.max.com/show/c2009ee9-75a7-409e-9dd9-706af2c84080,https://www.crunchyroll.com/pt-br/series/GMEHMEWP0/dragon-ball-z-kai"
 Fairy Tail,max,https://play.max.com/show/cded800c-b7e2-42b0-a5a2-64724e78a3e1
 Yashahime: Princess Half-Demon,"max,crunchyroll","https://play.max.com/show/d5dd1808-edba-43df-9c49-0fb9c446df9f,https://www.crunchyroll.com/pt-br/series/G63W41KD6/yashahime-princess-half-demon"
-Tokyo Godfathers,max,https://play.max.com/movie/0ff80635-6c12-434f-b4eb-bfc40ed4c993
 Dragon Quest: The Adventure of Dai,"max,crunchyroll,netflix","https://play.max.com/show/6691ffb3-8f32-4e33-b031-8c62bee707b1,https://www.crunchyroll.com/pt-br/series/GYXM79M56/dragon-quest-the-adventure-of-dai,https://www.netflix.com/title/81374392"
 Bakugan: Geogan Rising,max,https://play.max.com/show/80cd3bbb-df08-4cd2-8a13-1131d9b68eb6
 Bakugan: Evolutions,max,https://play.max.com/show/80cd3bbb-df08-4cd2-8a13-1131d9b68eb6
-World Trigger,"max,crunchyroll","https://play.max.com/show/ed75c214-984f-43d8-a35b-87b288c6428a,https://www.crunchyroll.com/pt-br/series/GR757DMKY/world-trigger"
-World Trigger 2nd Season,"max,crunchyroll","https://play.max.com/show/ed75c214-984f-43d8-a35b-87b288c6428a,https://www.crunchyroll.com/pt-br/series/GR757DMKY/world-trigger"
-World Trigger 3rd Season,"max,crunchyroll","https://play.max.com/show/ed75c214-984f-43d8-a35b-87b288c6428a,https://www.crunchyroll.com/pt-br/series/GR757DMKY/world-trigger"
+World Trigger,"max,crunchyroll,netflix","https://play.max.com/show/ed75c214-984f-43d8-a35b-87b288c6428a,https://www.crunchyroll.com/pt-br/series/GR757DMKY/world-trigger,https://www.netflix.com/title/80149562"
+World Trigger 2nd Season,"max,crunchyroll,netflix","https://play.max.com/show/ed75c214-984f-43d8-a35b-87b288c6428a,https://www.crunchyroll.com/pt-br/series/GR757DMKY/world-trigger,https://www.netflix.com/title/80149562"
+World Trigger 3rd Season,"max,crunchyroll,netflix","https://play.max.com/show/ed75c214-984f-43d8-a35b-87b288c6428a,https://www.crunchyroll.com/pt-br/series/GR757DMKY/world-trigger,https://www.netflix.com/title/80149562"
 Housing Complex C,max,https://play.max.com/show/e8e802f2-acee-434b-816f-4b2132de3465
 Kids on the Slope,max,https://play.max.com/show/a891f6e7-7d2d-4abf-9a38-3c499f808496
 LUPIN THE 3rd PART 6,max,https://play.max.com/show/ae72f0fa-2ff5-4737-86e7-902f42691e7c
@@ -843,7 +842,7 @@ Fate/kaleid liner Prisma☆Illya,crunchyroll,https://www.crunchyroll.com/pt-br/s
 Fate/kaleid liner Prisma☆Illya 2wei!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDQV79DY/fatekaleid-liner-prisma-illya
 Fate/kaleid liner Prisma☆Illya 2wei! Herz!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDQV79DY/fatekaleid-liner-prisma-illya
 Fate/kaleid liner Prisma☆Illya 3rei!!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDQV79DY/fatekaleid-liner-prisma-illya
-Fate/stay night: Unlimited Blade Works,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8V11X7Y/fatestay-night
+Fate/stay night: Unlimited Blade Works,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8V11X7Y/fatestay-night-unlimited-blade-works
 Fate/stay night: Unlimited Blade Works 2nd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8V11X7Y/fatestay-night
 Fate/Zero,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRJQ04Z3Y/fatezero
 Fate/Zero Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRJQ04Z3Y/fatezero
@@ -1015,7 +1014,7 @@ Heaven's Lost Property,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR79
 Heaven's Lost Property: Forte,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR79V3VN6/heavens-lost-property
 Heaven’s Lost Property Final – The Movie: Eternally My Master,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR79V3VN6/heavens-lost-property
 Hell Girl: Fourth Twilight,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6P8ZPGK6/hell-girl-fourth-twilight
-Hell’s Paradise,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7Q5ZJ/hells-paradise
+Hell’s Paradise,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GJ0H7Q5ZJ/hells-paradise,https://www.netflix.com/title/81574246"
 Hellsing,crunchyroll,https://www.crunchyroll.com/pt-br/series/G649DPXQY/hellsing
 "Hensuki: Are you willing to fall in love with a pervert, as long as she’s a cutie?",crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0MX4W/hensuki---are-you-willing-to-fall-in-love-with-a-pervert-as-long-as-shes-a-cutie
 Hero Bank,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYJQV0Q26/herobank
@@ -1116,8 +1115,8 @@ JoJo's Bizarre Adventure: Golden Wind,crunchyroll,https://www.crunchyroll.com/pt
 Joker Game,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VXP2JY/joker-game
 JORAN THE PRINCESS OF SNOW AND BLOOD,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7Q4E9/joran-the-princess-of-snow-and-blood
 Joshi Kausei,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69VK8M8Y/joshi-kausei
-JUJUTSU KAISEN,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen
-JUJUTSU KAISEN 0,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen
+JUJUTSU KAISEN,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen,https://www.netflix.com/title/81278456"
+JUJUTSU KAISEN 0,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen,https://www.netflix.com/title/81602834"
 JUNI TAISEN：ZODIAC WAR,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K51X9GY/juni-taisenzodiac-war
 Junior High and High School!! Kimetsu Academy Story: Kimetsu no Utage Special Edition,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKNPP7/junior-high-and-high-school-kimetsu-academy-story
 Junior High and High School!! Kimetsu Academy Story: Valentine Edition,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKNPP7/junior-high-and-high-school-kimetsu-academy-story
@@ -1355,7 +1354,7 @@ Miss Monochrome - The Animation - 3,crunchyroll,https://www.crunchyroll.com/pt-b
 Miss Shachiku and the Little Baby Ghost,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5XEJ7/miss-shachiku-and-the-little-baby-ghost
 Mitchiri Neko,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZX822VY/mitchiri-neko
 MIX,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9VK9PWR/mix
-MIX MEISEI STORY Season2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9VK9PWR/mix
+MIX MEISEI STORY Season2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9VK9PWR/mix-meisei-story
 Mizu no Kotoba,crunchyroll,https://www.crunchyroll.com/pt-br/watch/GZ4F3X5P1/mizu-no-kotoba
 Mob Psycho 100,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100,https://www.netflix.com/title/80179798"
 Mob Psycho 100 II,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100,https://www.netflix.com/title/80179798"
@@ -1574,7 +1573,7 @@ Zakuro,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYDQK7WZ6/otome-yoka
 Our Last Crusade or the Rise of a New World,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX8ZD0/our-last-crusade-or-the-rise-of-a-new-world
 Our love has always been 10 centimeters apart.,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRJQM5M0Y/our-love-has-always-been-10-centimeters-apart
 Overlord,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord,https://www.netflix.com/title/80132110"
-Overlord II,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
+Overlord II,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord,https://www.netflix.com/title/80132110"
 Overlord III,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
 Overlord IV,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
 Overlord: The Undead King,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
@@ -1931,7 +1930,7 @@ Tenchi Muyo! War on Geminar,crunchyroll,https://www.crunchyroll.com/pt-br/series
 Tenjho Tenge,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR5VXM03R/tenjho-tenge
 Tenjho Tenge: The Ultimate Fight,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR5VXM03R/tenjho-tenge
 TEPPEN!!!!!!!!!!!!!!! Laughing 'til You Cry,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5X0E2/teppen-laughing-til-you-cry
-Terra Formars,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRNQPEGWR/terraformars
+Terra Formars,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRNQPEGWR/terra-formars
 Tesla Note,crunchyroll,https://www.crunchyroll.com/pt-br/series/G3KHEVQG5/tesla-note
 That is the Bottleneck,crunchyroll,https://www.crunchyroll.com/pt-br/series/GREME5WX6/that-is-the-bottleneck
 That Time I Got Reincarnated as a Slime,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime
@@ -2047,7 +2046,7 @@ The Prince of Tennis II: U-17 World Cup,crunchyroll,https://www.crunchyroll.com/
 The Promised Neverland Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYVD2K1WY/the-promised-neverland
 The Quintessential Quintuplets,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets
 The Quintessential Quintuplets 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets
-The Quintessential Quintuplets Movie,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets
+The Quintessential Quintuplets Movie,"crunchyroll","https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets,https://www.netflix.com/title/81717895"
 The Reflection,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9P2JV8R/the-reflection
 The Reincarnation of the Strongest Exorcist in Another World,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJVWXG/the-reincarnation-of-the-strongest-exorcist-in-another-world
 The Rising of the Shield Hero,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6W4QKX0R/the-rising-of-the-shield-hero
@@ -2353,8 +2352,8 @@ All Saints Street,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM5N2
 All Saints Street 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM5N2/all-saints-street
 All Saints Street 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM5N2/all-saints-street
 Copihan,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV78N3/copihan
-Dr. STONE,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
-Dr. STONE: STONE WARS,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
+Dr. STONE,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone,https://www.netflix.com/title/81046193"
+Dr. STONE: STONE WARS,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone,https://www.netflix.com/title/81046193"
 Dr. STONE Special Episode – RYUSUI,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
 Dr. STONE New World,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
 Dragon Ball Z,crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9PPW/dragon-ball-z
@@ -2381,10 +2380,10 @@ Twin Angel Break,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQ54786/
 Twin Star Exorcists,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63VM084Y/twin-star-exorcists
 TWOCAR,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY2PQNPMY/twocar
 HAIKYU!!,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/80090673"
-HAIKYU!! 2nd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
-HAIKYU!! 3rd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
-HAIKYU!! TO THE TOP,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
-HAIKYU‼ TO THE TOP Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
+HAIKYU!! 2nd Season,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/80090673"
+HAIKYU!! 3rd Season,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/80090673"
+HAIKYU!! TO THE TOP,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/80090673"
+HAIKYU‼ TO THE TOP Part 2,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/80090673"
 HAIKYU!! LAND VS. AIR,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu
 Haikyu!! The Movie: Talent and Sense,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/81030151"
 Haikyu!! The Movie: Battle of Concepts,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY8VM8MWY/haikyu,https://www.netflix.com/title/81030152"
@@ -2596,7 +2595,7 @@ Astro Note,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV78D7/astro-
 The Irregular at Magic High School Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRMGDGZVR/the-irregular-at-magic-high-school
 HIGHSPEED Étoile,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3D879/highspeed-toile
 That Time I Got Reincarnated as a Slime Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime
-Dragon Raja -The Blazing Dawn-,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEJN0/dragon-raja-the-blazing-dawn-
+Dragon Raja -The Blazing Dawn-,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEJN0/dragon-raja--the-blazing-dawn-
 Tonari no Yokai-san,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M1DX/tonari-no-yokai-san
 Sound! Euphonium 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRDQNQW9Y/sound-euphonium
 The Duke of Death and His Maid Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23V0G/the-duke-of-death-and-his-maid
@@ -2612,8 +2611,8 @@ Mysterious Disappearances,crunchyroll,https://www.crunchyroll.com/pt-br/series/G
 Date A Live V,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEX5E1G6/date-a-live
 KONOSUBA -God's Blessing on This Wonderful World! 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYE5K3GQR/konosuba-gods-blessing-on-this-wonderful-world
 Viral Hit,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7QGME/viral-hit
-Kurayukaba,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN9Z2/kurayukaba-kuramerukagari
-Kuramerukagari,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN9Z2/kurayukaba-kuramerukagari
+Kurayukaba,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN9Z2/kurayukaba--kuramerukagari
+Kuramerukagari,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN9Z2/kurayukaba--kuramerukagari
 THE iDOLM@STER SHINY COLORS,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G0ZK/the-idolmster-shiny-colors
 Black Butler: Public School Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
 THE NEW GATE,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME7Z1/the-new-gate
@@ -2624,3 +2623,13 @@ Mushoku Tensei: Jobless Reincarnation Season 2 Part 2,crunchyroll,https://www.cr
 The Misfit of Demon King Academy II (Cour 2),crunchyroll,https://www.crunchyroll.com/pt-br/series/GY243NN0R/the-misfit-of-demon-king-academy
 TOUKEN RANBU KAI KYODEN,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX85PN/touken-ranbu-kai-kyoden
 The Grimm Variations,netflix,https://www.netflix.com/title/81050090
+My Oni Girl,netflix,https://www.netflix.com/title/81582442
+T・P BON,netflix,https://www.netflix.com/title/81497635
+SHAMAN KING FLOWERS,netflix,https://www.netflix.com/title/81749969
+DEAD DEAD DEMONS DEDEDEDE DESTRUCTION,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV7827/dead-dead-demons-dededede-destruction
+Genesis Climber Mospeada,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1NW50/genesis-climber-mospeada
+MEGATON MUSASHI,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ840X/megaton-musashi
+The Journey,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3DJ2X/the-journey
+Demon Slayer: Kimetsu no Yaiba Hashira Training Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
+My Hero Academia Season 7,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia
+Mission: Yozakura Family,starplus,https://www.starplus.com/pt-br/series/mission-yozakura-family/fiCVxc9GZNVm
