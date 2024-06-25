@@ -382,14 +382,13 @@ Lu Over the Wall,max,https://play.max.com/movie/370e07c9-dc65-4e18-8521-959d8363
 Black Clover: Sword of the Wizard King,netflix,https://www.netflix.com/title/81448990
 Star Wars: Visions,disneyplus,https://www.disneyplus.com/pt-br/series/star-wars-visions/5AiiTRJ7OaKg
 Avengers Confidential: Black Widow & Punisher,max,https://play.max.com/movie/ac981395-ef8f-41f7-beb1-8ef30461b266
-Iron Man: Rise of Technovore,disneyplus,https://www.disneyplus.com/pt-br/movies/homem-de-ferro-a-batalha-contra-ezekiel-stane/BOUC0q9hQhLg
-Tokyo Revengers Season 2,starplus,https://www.starplus.com/pt-br/series/tokyo-revengers/4HFbN55sAh0i
-Summer Time Rendering,starplus,https://www.starplus.com/pt-br/series/a-ilha-das-sombras/3AHbeFV7Lqvn
-The Tatami Time Machine Blues,starplus,https://www.starplus.com/pt-br/series/tatami-uma-viagem-no-tempo/6C7HChDy39QZ
-BLACK ROCK SHOOTER DAWN FALL,starplus,https://www.starplus.com/pt-br/series/black-rock-shooter-amanhecer/6LJhlNWYcdjJ
-Tengoku Daimakyo,starplus,https://www.starplus.com/pt-br/series/tengoku-daimakyo-ilusao-celestial/7hd7j6bmGOTg
-BLEACH,starplus,https://www.starplus.com/pt-br/series/bleach/6g48QKlgQdWK
-BLEACH: Thousand-Year Blood War,starplus,https://www.starplus.com/pt-br/series/bleach-thousand-year-blood-war/4Afet1Q421gy
+Tokyo Revengers Season 2,disneyplus,https://www.disneyplus.com/series/tokyo-revengers/4HFbN55sAh0i
+Summer Time Rendering,disneyplus,https://www.disneyplus.com/series/a-ilha-das-sombras/3AHbeFV7Lqvn
+The Tatami Time Machine Blues,disneyplus,https://www.disneyplus.com/series/tatami-uma-viagem-no-tempo/6C7HChDy39QZ
+BLACK ROCK SHOOTER DAWN FALL,disneyplus,https://www.disneyplus.com/series/black-rock-shooter-amanhecer/6LJhlNWYcdjJ
+Tengoku Daimakyo,disneyplus,https://www.disneyplus.com/series/tengoku-daimakyo-ilusao-celestial/7hd7j6bmGOTg
+BLEACH,disneyplus,https://www.disneyplus.com/series/bleach/6g48QKlgQdWK
+BLEACH: Thousand-Year Blood War,disneyplus,https://www.disneyplus.com/series/bleach-thousand-year-blood-war/4Afet1Q421gy
 The Eternal 831,max,https://play.max.com/movie/b61ae4b2-4652-4c0f-8318-80aaa62237eb
 Pokémon Advanced,primevideo,https://www.primevideo.com/detail/0NYID6GDSKCEAXU8P6BUPXKUMS/ref=atv_dp_season_select_s601
 Blade of the Immortal (ONA),primevideo,https://www.primevideo.com/detail/0JTDDLSTGLYR0ZPWEWF42YHZXM/ref=atv_sr_fle_c_Tn74RA_26_1_5
@@ -490,7 +489,6 @@ Anne-Happy,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWE2J9JY/anne-h
 Anohana: The Flower We Saw That Day,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR19X2G26/anohana-the-flower-we-saw-that-day
 Another,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR09X52WR/another
 Anti-Magic Academy: The 35th Test Platoon,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZXDKNVY/anti-magic-academy-the-35th-test-platoon
-Ao-chan Can't Study!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY3K9XM9Y/ao-chan-cant-study
 Aoashi,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WX5J/aoashi
 World War Blue,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY49PZ78R/aoi-sekai-no-chushin-de
 AOKANA: Four Rhythm Across the Blue,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYMGPXKVY/aokana-four-rhythm-across-the-blue
@@ -570,17 +568,15 @@ Bikini Warriors,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5X0K0/b
 BIRDIE WING -Golf Girls' Story-,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN714/birdie-wing--golf-girls-story-
 BIRDIE WING -Golf Girls’ Story- Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN714/birdie-wing--golf-girls-story-
 Black Blood Brothers,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYX05GE8R/black-blood-brothers
-Black Butler: Book of Circus,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYNQP780Y/black-butler-book-of-circus
+Black Butler: Book of Circus,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
 Black Cat,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWEQW20Y/black-cat
 Black Cat: The Distant Cat,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWEQW20Y/black-cat
-Black Clover,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover
+Black Clover,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover,https://www.netflix.com/title/80238012"
 Black★Rock Shooter (TV),crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME53W/black-rock-shooter
 Black Summoner,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX8JJE/black-summoner
 BLACKFOX,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR24JJ086/blackfox
-Blade & Soul,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRGG4VMER/blade-and-soul
 Blade Runner: Black Out 2022,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR09Z7W7R/blade-runner-black-out-2022
 Blade Runner: Black Lotus,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3DPK0/blade-runner-black-lotus
-Bladedance of Elementalers,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWEZ45QY/bladedance-of-elementalers
 Blassreiter,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVNX903Y/blassreiter
 BLEND-S,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYJQ430W6/blend-s
 Blood Blockade Battlefront,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWEQEZER/blood-blockade-battlefront
@@ -595,7 +591,6 @@ BOCCHI THE ROCK!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3P19/
 "Boku-no-imoutowa""Osaka-okan""",crunchyroll,https://www.crunchyroll.com/pt-br/series/GYE5MPJ0R/boku-no-imoutowaosaka-okan
 Bokurano,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWE288NR/bokurano
 Bonjour♪Sweet Love Patisserie,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYVN38JP6/bonjoursweet-love-patisserie
-Bono Bono (2016),crunchyroll,https://www.crunchyroll.com/pt-br/series/G675K0G3R/bono-bono
 Boogiepop and Others,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYJ0J3M06/boogiepop-and-others
 Bungaku Shoujo,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYP8P4NWY/book-girl
 Bottom-Tier Character Tomozaki,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEWP9/bottom-tier-character-tomozaki
@@ -603,7 +598,6 @@ Bottom-Tier Character Tomozaki OVA,crunchyroll,https://www.crunchyroll.com/pt-br
 Brave Witches,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRMG1D55R/brave-witches
 Break Ups,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6JQ0M9WR/break-ups
 Brothers Conflict,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63VXEQNY/brothers-conflict
-Brynhildr in the Darkness,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6WEMP106/brynhildr-in-the-darkness
 Buddy Complex,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYE5Z94VR/buddy-complex
 Buddy Daddies,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5X3DE/buddy-daddies
 BUILD-DIVIDE -#000000- CODE BLACK,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5XDE1/build-divide--000000--code-black
@@ -629,7 +623,6 @@ C3: Outdoor School Confusion,crunchyroll,https://www.crunchyroll.com/pt-br/serie
 Calamity of a Zombie Girl,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYNVQ5PZR/calamity-of-a-zombie-girl
 Caligula,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6DK9M29R/caligula
 Campfire Cooking in Another World with My Absurd Skill,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skill
-Campione!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR19QV096/campione
 Cardcaptor Sakura: Clear Card,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6JQXP48R/cardcaptor-sakura-clear-card
 Cardfight!! Vanguard Extra Story -if-,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRXJ9X5EY/cardfight-vanguard
 Cardfight!! Vanguard overDress,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3NJ5/cardfight-vanguard-overdress
@@ -855,7 +848,6 @@ First Love Monster,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY3VGKV9
 Fist of the Blue Sky: Regenesis,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR79P2NJ6/fist-of-the-blue-sky-regenesis
 Fist of the Blue Sky: Regenesis 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR79P2NJ6/fist-of-the-blue-sky-regenesis
 Flame of Recca,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY09GKE2Y/flame-of-recca
-Flowers of Evil,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR751923Y/flowers-of-evil
 Flying Witch,crunchyroll,https://www.crunchyroll.com/pt-br/series/G65VE2G36/flying-witch
 Furusato Saisei: Nippon no Mukashi Banashi,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY49PDGVR/folktales-from-japan
 Furusato Meguri Nippon no Mukashibanashi,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY49PDGVR/folktales-from-japan
@@ -953,7 +945,6 @@ Golden Kamuy,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8DWQN5Y/gold
 Golden Kamuy Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8DWQN5Y/golden-kamuy
 Golden Kamuy Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8DWQN5Y/golden-kamuy
 Golden Kamuy Season 4,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8DWQN5Y/golden-kamuy
-Golden Time,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY49G7K8R/golden-time
 Good Luck! Ninomiya-kun,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHVNJ5V/good-luck-ninomiya-kun
 Gosick,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYG5GW91Y/gosick
 GRANBELM,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZJ0M446/granbelm
@@ -964,7 +955,6 @@ Granblue Fantasy: The Animation Season 2 Specials,crunchyroll,https://www.crunch
 Grand Blues!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEMEVGVR/grand-blues
 Super Heavy God Gravion,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYW4HPEK1/gravion
 Grimgar of Fantasy and Ash,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVNX917Y/grimgar-ashes-and-illusions
-Grimm's Notes The Animation,crunchyroll,https://www.crunchyroll.com/pt-br/series/G679ZQKKY/grimms-notes-the-animation
 GTO: Great Teacher Onizuka,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GRQ4QG4GY/gto---the-animation,https://www.netflix.com/title/80124041?dpRightClick=1&trackId=255824129&trackIdJaw=255824129&trackIdEpisode=255824129&trackIdTrailer=255824129https://www.netflix.com/title/80124041"
 Gun X Sword,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VK5G8Y/gun-x-sword
 Gundam Build Divers,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9VDNJ0R/gundam-build-divers
@@ -982,8 +972,6 @@ Gurazeni: Money Pitch 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRV
 Guyver: The Bioboosted Armor,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR9P7JMV6/guyver-the-bioboosted-armor
 Hakata Mentai! Pirikarako-chan,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR4PQX0WY/hakata-mentai-pirikarako-chan
 Hakata Tonkotsu Ramens,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYJQG29X6/hakata-tonkotsu-ramens
-Hakkenden: Eight Dogs of the East,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PXDV1Y/hakkenden-eight-dogs-of-the-east
-Hakkenden: Touhou Hakken Ibun 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PXDV1Y/hakkenden-eight-dogs-of-the-east
 Hakone-chan,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6MGP0V26/hakone-chan
 Hakubo,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYNV4Z7JR/hakubo
 Hakuoki ~Demon of the Fleeting Blossom~ (2021),crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZE2Q7/hakuoki-demon-of-the-fleeting-blossom
@@ -1143,7 +1131,6 @@ Kaina of the Great Snow Sea,crunchyroll,https://www.crunchyroll.com/pt-br/series
 Kakuriyo -Bed & Breakfast for Spirits-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6MEK1ZGR/kakuriyo--bed--breakfast-for-spirits-
 Kakushigoto,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM00Z/kakushigoto
 KAKUSHIGOTO Theatrical Edition,crunchyroll,https://www.crunchyroll.com/pt-br/series/G0XHWM00Z/kakushigoto
-Kamigami no Asobi,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQJZQ36/kamigami-no-asobi
 KamiKatsu: Working for God in a Godless World,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKNP4J/kamikatsu-working-for-god-in-a-godless-world
 Kamisama Dolls,crunchyroll,https://www.crunchyroll.com/pt-br/series/G649PQNWY/kamisama-dolls
 Kamisama Kiss,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRE5KE7P6/kamisama-hajimemashita
@@ -1179,7 +1166,6 @@ Kingdom,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWE89KMR/kingdom
 Kingdom Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWE89KMR/kingdom
 Kingdom Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWE89KMR/kingdom
 Kingdom Season 4,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWE89KMR/kingdom
-KINMOZA!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR19QQXQ6/kinmoza
 Kino's Journey -the Beautiful World- the Animated Series,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5VGNM0Y/kinos-journey--the-beautiful-world--the-animated-series
 KIRA KIRA☆PRETTY CURE A LA MODE,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6W47P0ER/kira-kiraprecure-a-la-mode
 Kiratto Pri☆chan,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN854/kiratto-prichan
@@ -1234,7 +1220,6 @@ Spellbound! Magical Princess Lilpri,crunchyroll,https://www.crunchyroll.com/pt-b
 Link Click,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8E81/link-click
 LINK CLICK Episode 5.5,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8E81/link-click
 LINK CLICK (Shorts),crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8E81/link-click
-"Listen to Me, Girls. I Am Your Father!",crunchyroll,https://www.crunchyroll.com/pt-br/series/G6MGEJ946/listen-to-me-girls-im-your-father
 Listeners,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV7E4G/listeners
 Locodol,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9P3ME4R/locodol
 Locodol OVA,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9P3ME4R/locodol
@@ -1458,8 +1443,6 @@ My Wife is the Student Council President,crunchyroll,https://www.crunchyroll.com
 Myriad Colors Phantom World,crunchyroll,https://www.crunchyroll.com/pt-br/series/G609G0PP6/myriad-colors-phantom-world
 Myself; Yourself,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYP817ZDY/myself-yourself
 Mysteria Friends,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYME20ZZ6/mysteria-friends
-Mysterious Girlfriend X,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRX0M3356/mysterious-girlfriend-x
-Namuamidabutsu! -UTENA-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G679JN2KY/namuamidabutsu--utena-
 Nanana's Buried Treasure,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY3V7KGVR/nananas-buried-treasure
 NANBAKA,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5PP7EY/nanbaka
 NANBAKA - Part Two,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5PP7EY/nanbaka
@@ -1574,7 +1557,7 @@ Our Last Crusade or the Rise of a New World,crunchyroll,https://www.crunchyroll.
 Our love has always been 10 centimeters apart.,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRJQM5M0Y/our-love-has-always-been-10-centimeters-apart
 Overlord,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord,https://www.netflix.com/title/80132110"
 Overlord II,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord,https://www.netflix.com/title/80132110"
-Overlord III,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
+Overlord III,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord,https://www.netflix.com/title/80132110"
 Overlord IV,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
 Overlord: The Undead King,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
 Overlord: The Dark Hero,crunchyroll,https://www.crunchyroll.com/pt-br/series/G69PZ5PDY/overlord
@@ -1585,7 +1568,6 @@ Pan de Peace!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR49M5536/pan
 Parallel World Pharmacy,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1NJJD/parallel-world-pharmacy
 Paranoia Agent,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNMW8E/paranoia-agent
 Parasyte -the maxim-,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/G6K53VGGY/parasyte--the-maxim-,https://www.netflix.com/title/80191008"
-Pastel Memories,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY0XZ8276/pastel-memories
 Peacemaker Kurogane: Belief,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVD1337R/peace-maker-kurogane
 Peacemaker Kurogane: Friend,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVD1337R/peace-maker-kurogane
 Peacemaker,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYX08Q77R/peacemaker
@@ -1726,7 +1708,6 @@ Sasaki and Miyano: A Tiny Episode From Before He Realized His Feelings,crunchyro
 Sasami Magical Girls Club,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRK5ZZGW6/sasami-magical-girls-club
 Sasami Magical Girls Club 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRK5ZZGW6/sasami-magical-girls-club
 "Saving 80,000 Gold in Another World for My Retirement",crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WEM2/saving-80000-gold-in-another-world-for-my-retirement
-"Say ""I love you"".",crunchyroll,https://www.crunchyroll.com/pt-br/series/GR3VWGVV6/say-i-love-you
 Scar on the Praeter,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJVE2E/scar-on-the-praeter
 Sca-red Rider XechS,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5PVV08Y/scar-red-rider-xechs
 SCARLET NEXUS,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME4J3/scarlet-nexus
@@ -1754,7 +1735,6 @@ SENGOKUCHOJYUGIGA,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRX0420P6
 SENGOKUCHOJYUGIGA Season2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRX0420P6/sengokuchojyugiga
 Senran Kagura: Ninja Flash!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR9PZ9ZE6/senran-kagura
 SENRAN KAGURA SHINOVI MASTER,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY4PGN7V6/senran-kagura-shinovi-master
-Senryu Girl,crunchyroll,https://www.crunchyroll.com/pt-br/series/G61XE70G6/senryu-girl
 Senyu.,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWEMDGEY/senyu
 Senyuu. 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWEMDGEY/senyu
 SERVAMP,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR2PQ7J2R/servamp
@@ -1879,7 +1859,6 @@ Strike Witches: Road to Berlin,crunchyroll,https://www.crunchyroll.com/pt-br/ser
 Strike Witches: The Movie,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXXWD36/strike-witches
 Strike Witches: 501st JOINT FIGHTER WING Take Off!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYNVWW73R/strike-witches-501st-joint-fighter-wing-take-off
 Sugar Apple Fairy Tale,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM7E2/sugar-apple-fairy-tale
-Sunday Without God,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR0972VER/sunday-without-god
 Super Cub,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7QM1J/super-cub
 SUPER HXEROS,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7QXJ8/super-hxeros
 SUPER LOVERS,crunchyroll,https://www.crunchyroll.com/pt-br/series/G65VXD8Q6/super-lovers
@@ -1969,9 +1948,6 @@ The Faraway Paladin,crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W8
 The Fire Hunter,crunchyroll,https://www.crunchyroll.com/pt-br/series/GJ0H7Q5X9/the-fire-hunter
 "The Fruit of Evolution: Before I Knew It, My Life Had It Made",crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9DDX/the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made
 "The Fruit of Evolution: Before I Knew It, My Life Had It Made Season 2",crunchyroll,https://www.crunchyroll.com/pt-br/series/G9VHN9DDX/the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made
-The Fruit of Grisaia,crunchyroll,https://www.crunchyroll.com/pt-br/series/G65VKEXD6/the-fruit-of-grisaia
-The Labyrinth of Grisaia,crunchyroll,https://www.crunchyroll.com/pt-br/series/G65VKEXD6/the-fruit-of-grisaia
-The Eden of Grisaia,crunchyroll,https://www.crunchyroll.com/pt-br/series/G65VKEXD6/the-fruit-of-grisaia
 The Future Diary,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYGGXPQ2Y/the-future-diary
 The Galaxy Railways,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRX0NN1K6/the-galaxy-railways
 the Garden of sinners Chapter 1: Thanatos. (Overlooking View),crunchyroll,https://www.crunchyroll.com/pt-br/series/G6DK07N7R/the-garden-of-sinners
@@ -2021,7 +1997,6 @@ The Legendary Hero is Dead!,crunchyroll,https://www.crunchyroll.com/pt-br/series
 The Little Lies We All Tell,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM7NG/the-little-lies-we-all-tell
 The Lost Village,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6JQ14V2R/the-lost-village
 The Magical Revolution of the Reincarnated Princess and the Genius Young Lady,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM7J2/the-magical-revolution-of-the-reincarnated-princess-and-the-genius-young-lady
-The Magnificent KOTOBUKI,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63K58E96/the-magnificent-kotobuki
 The Maid I Hired Recently is Mysterious,crunchyroll,https://www.crunchyroll.com/pt-br/series/GG5H5X092/the-maid-i-hired-recently-is-mysterious
 THE MARGINAL SERVICE,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV741D/the-marginal-service
 The Master of Ragnarök & Blesser of Einherjar,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NVQ59XY/the-master-of-ragnarok--blesser-of-einherjar
@@ -2046,7 +2021,7 @@ The Prince of Tennis II: U-17 World Cup,crunchyroll,https://www.crunchyroll.com/
 The Promised Neverland Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYVD2K1WY/the-promised-neverland
 The Quintessential Quintuplets,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets
 The Quintessential Quintuplets 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets
-The Quintessential Quintuplets Movie,"crunchyroll","https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets,https://www.netflix.com/title/81717895"
+The Quintessential Quintuplets Movie,"crunchyroll,netflix","https://www.crunchyroll.com/pt-br/series/GY4PD7Z06/the-quintessential-quintuplets,https://www.netflix.com/title/81717895"
 The Reflection,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY9P2JV8R/the-reflection
 The Reincarnation of the Strongest Exorcist in Another World,crunchyroll,https://www.crunchyroll.com/pt-br/series/G1XHJVWXG/the-reincarnation-of-the-strongest-exorcist-in-another-world
 The Rising of the Shield Hero,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6W4QKX0R/the-rising-of-the-shield-hero
@@ -2089,8 +2064,6 @@ Thunderbolt Fantasy Sword Seekers 2,crunchyroll,https://www.crunchyroll.com/pt-b
 Thunderbolt Fantasy Sword Seekers 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY75KE906/thunderbolt-fantasy
 Thunderbolt Fantasy - Bewitching Melody of the West,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY75KE906/thunderbolt-fantasy
 Tiger Mask W,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY8VJJ0GY/tiger-mask-w
-Time Bokan 24,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZXD4G8Y/time-bokan-24
-Time Bokan: The Villains' Strike Back,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRZXD4G8Y/time-bokan-24
 Time of Eve,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYDQ42286/time-of-eve
 Time Travel Girl,crunchyroll,https://www.crunchyroll.com/pt-br/series/G65VGZZ76/time-travel-girl
 TO BE HERO,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6Q4MKK3R/to-be-hero
@@ -2171,7 +2144,6 @@ URAHARA,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6JQ4148R/urahara
 Urawa no Usagi-chan,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYWE24DJY/urawa-no-usagi-chan
 Bunny Drop,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63VK38ZY/usagi-drop
 Usakame,crunchyroll,https://www.crunchyroll.com/pt-br/series/G675K3Q3R/usakame
-Uta no Prince Sama 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYX0MQW3R/uta-no-prince-sama
 Utawarerumono,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRP8011JR/utawarerumono
 Utawarerumono Mask of Truth,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHMEW4M/utawarerumono-mask-of-truth
 Uzaki-chan Wants to Hang Out!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN7KZ/uzaki-chan-wants-to-hang-out
@@ -2190,7 +2162,6 @@ VIRTUALSAN - LOOKING,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR3KZZ
 Vivy -Fluorite Eye’s Song-,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME4M4/vivy--fluorite-eyes-song-
 VLAD LOVE,crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W5WN/vlad-love
 Voice of Fox,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYNVJGJGR/voice-of-fox
-W'z,crunchyroll,https://www.crunchyroll.com/pt-br/series/G60XZ8MER/wz
 Wacky TV Nanana,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY3K980XY/wacky-tv-nanana
 Wacky TV Nanana 2nd season,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY3K980XY/wacky-tv-nanana
 Wacky TV Nanana Chase the Kraken Monster!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY3K980XY/wacky-tv-nanana
@@ -2221,7 +2192,6 @@ When Supernatural Battles Became Commonplace,crunchyroll,https://www.crunchyroll
 White Album,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5E8M9Y/white-album
 WHITE ALBUM 2nd Season,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6K5E8M9Y/white-album
 White Album 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR2P5EK0R/white-album-2
-"Why the hell are you here, Teacher!?",crunchyroll,https://www.crunchyroll.com/pt-br/series/G63K9XG96/why-the-hell-are-you-here-teacher
 Wise Man’s Grandchild,crunchyroll,https://www.crunchyroll.com/pt-br/series/G63K95846/wise-mans-grandchild
 Witch Craft Works,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6DQV1J9R/witch-craft-works
 Witchblade,crunchyroll,https://www.crunchyroll.com/pt-br/series/G619MDQ1Y/witchblade
@@ -2340,8 +2310,8 @@ Theatre of Darkness: Yamishibai 11,crunchyroll,https://www.crunchyroll.com/pt-br
 Bungo Stray Dogs 5,crunchyroll,https://www.crunchyroll.com/pt-br/series/GR5VXQ8PR/bungo-stray-dogs
 TONIKAWA: Over The Moon For You ~High School Days~,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRWMGGQ86/tonikawa-over-the-moon-for-you
 Saint Cecilia & Pastor Lawrence,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G0G9/saint-cecilia-and-pastor-lawrence
-Synduality Noir,starplus,https://www.starplus.com/pt-br/series/synduality-noir/6Wyhb8bQ9XDr
-BLEACH: Thousand-Year Blood War - The Separation,starplus,https://www.starplus.com/pt-br/series/bleach-thousand-year-blood-war/4Afet1Q421gy
+Synduality Noir,disneyplus,https://www.disneyplus.com/series/synduality-noir/6Wyhb8bQ9XDr
+BLEACH: Thousand-Year Blood War - The Separation,disneyplus,https://www.disneyplus.com/series/bleach-thousand-year-blood-war/4Afet1Q421gy
 My Happy Marriage,netflix,https://www.netflix.com/title/81564905
 PSYCHO-PASS 3,"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.52b6fb73-82ab-8243-501f-9979f507336d,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass"
 PSYCHO-PASS 3: First Inspector,"primevideo,crunchyroll","https://app.primevideo.com/detail?gti=amzn1.dv.gti.80b883a7-a32c-7373-984b-21672259d355,https://www.crunchyroll.com/pt-br/series/GR75253JY/psycho-pass"
@@ -2416,7 +2386,7 @@ Shangri-La Frontier,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23Z
 SHY,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G0W9/shy
 The Family Circumstances of the Irregular Witch,crunchyroll,https://www.crunchyroll.com/pt-br/series/GXJHM3G24/the-family-circumstances-of-the-irregular-witch
 Scissor Seven Extras,netflix,http://www.netflix.com/title/81156880
-Tokyo Revengers Season 3,starplus,https://www.starplus.com/pt-br/series/tokyo-revengers/4HFbN55sAh0i
+Tokyo Revengers Season 3,disneyplus,https://www.disneyplus.com/series/tokyo-revengers/4HFbN55sAh0i
 "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",crunchyroll,https://www.crunchyroll.com/pt-br/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you
 16bit Sensation: Another Layer,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV7854/16bit-sensation-another-layer
 A Returner's Magic Should Be Special,crunchyroll,https://www.crunchyroll.com/pt-br/series/GEXH3W207/a-returners-magic-should-be-special
@@ -2450,8 +2420,8 @@ GOBLIN SLAYER II,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6VDMN306/
 SPY x FAMILY Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G4PH0WXVJ/spy-x-family
 Dr. STONE New World Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone
 After-school Hanako-kun,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX85GV/after-school-hanako-kun
-Tokyo Revengers Season 2 Part 2,starplus,https://www.starplus.com/pt-br/series/tokyo-revengers/4HFbN55sAh0i
-Phoenix: Eden17,starplus,https://www.starplus.com/pt-br/series/phoenix-eden17/6gAZqfKsde3I
+Tokyo Revengers Season 2 Part 2,disneyplus,https://www.disneyplus.com/series/tokyo-revengers/4HFbN55sAh0i
+Phoenix: Eden17,disneyplus,https://www.disneyplus.com/series/phoenix-eden17/6gAZqfKsde3I
 GOOD NIGHT WORLD,netflix,https://netflix.com/title/81340213
 PLUTO,netflix,https://www.netflix.com/title/81281344
 That Time I Got Reincarnated as a Slime: Visions of Coleus,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime
@@ -2489,7 +2459,7 @@ Saint Seiya: The Heated Battle of the Gods,primevideo,https://www.primevideo.com
 Saint Seiya: Warriors of the Final Holy Battle,primevideo,https://www.primevideo.com/-/pt/detail/0MDU5W9M6G26901ZZU1BCDLAOY
 Saint Seiya: The Heaven Chapter - Overture,primevideo,https://www.primevideo.com/-/pt/detail/0GA7TMGEVI1S0M4TSQTKD0RLY2
 Saint Seiya: Evil Goddess Eris,primevideo,https://www.primevideo.com/-/pt/detail/0J9AYIL76ITTC8OOPUHUGMML5H
-Undead Unluck,starplus,https://www.starplus.com/pt-br/series/undead-unluck/6yBbjezPBwNW
+Undead Unluck,disneyplus,https://www.disneyplus.com/series/undead-unluck/6yBbjezPBwNW
 PSYCHO-PASS: Providence,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1NWPJ/psycho-pass-providence
 The Daily Life of the Immortal King Season 4,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king
 Kaina of the Great Snow Sea: Star Sage,crunchyroll,https://www.crunchyroll.com/pt-br/series/G79H23XVZ/kaina-of-the-great-snow-sea
@@ -2500,7 +2470,7 @@ Resident Evil: Death Island,max,https://play.max.com/movie/76a566e1-68ea-4524-a2
 Solo Leveling,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEJ0K/solo-leveling
 Bottom-Tier Character Tomozaki 2nd Stage,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEWP9/bottom-tier-character-tomozaki
 Classroom of the Elite Season 3,crunchyroll,https://www.crunchyroll.com/pt-br/series/GRVN8MNQY/classroom-of-the-elite
-Ishura,starplus,https://www.starplus.com/pt-br/series/ishura/hQ0p1WPHHQmZ
+Ishura,disneyplus,https://www.disneyplus.com/series/ishura/hQ0p1WPHHQmZ
 Delicious in Dungeon,netflix,https://www.netflix.com/title/81564899
 Mina,crunchyroll,https://www.crunchyroll.com/pt-br/series/GQWH0M18K/mina
 Sasaki and Peeps,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM935/sasaki-and-peeps
@@ -2520,7 +2490,7 @@ The Strongest Tank's Labyrinth Raids -A Tank with a Rare 9999 Resistance Skill G
 Blue Exorcist -Shimane Illuminati Saga-,crunchyroll,https://www.crunchyroll.com/pt-br/series/G649PJ0JY/blue-exorcist
 TSUKIMICHI -Moonlit Fantasy- Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3D719/tsukimichi--moonlit-fantasy-
 HIGH CARD Season 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G8DHV74W5/high-card
-Synduality Noir Part 2,starplus,https://www.starplus.com/pt-br/series/synduality-noir/6Wyhb8bQ9XDr
+Synduality Noir Part 2,disneyplus,https://www.disneyplus.com/series/synduality-noir/6Wyhb8bQ9XDr
 Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord,crunchyroll,https://www.crunchyroll.com/pt-br/series/GKEH2G099/villainess-level-99-i-may-be-the-hidden-boss-but-im-not-the-demon-lord
 Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ8435/cherry-magic-thirty-years-of-virginity-can-make-you-a-wizard
 Doctor Elise: The Royal Lady with the Lamp,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX853V/doctor-elise-the-royal-lady-with-the-lamp
@@ -2582,7 +2552,7 @@ Saint Seiya: Knights of the Zodiac - Battle for Sanctuary Part 2,crunchyroll,htt
 Hakuoki ~Demon of the Fleeting Blossom~,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZE2Q7/hakuoki-demon-of-the-fleeting-blossom
 Hakuoki ~Demon of the Fleeting Blossom~ Record of the Jade Blood,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZE2Q7/hakuoki-demon-of-the-fleeting-blossom
 Hakuoki ~Demon of the Fleeting Blossom~ Dawn of the Shinsengumi,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZE2Q7/hakuoki-demon-of-the-fleeting-blossom
-Sand Land: The Series,starplus,https://www.starplus.com/pt-br/series/sand-land-the-series/7I31jGPKAwz5
+Sand Land: The Series,disneyplus,https://www.disneyplus.com/series/sand-land-the-series/7I31jGPKAwz5
 Steamboy,max,https://play.max.com/movie/a55d9654-89fd-4d24-aca2-616464320f0b
 Lupin III: The First,primevideo,https://www.primevideo.com/region/na/detail/0Q66XLSZOEQIFKINYXC69SZG3E
 An Archdemon's Dilemma: How to Love Your Elf Bride,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride
@@ -2617,8 +2587,8 @@ THE iDOLM@STER SHINY COLORS,crunchyroll,https://www.crunchyroll.com/pt-br/series
 Black Butler: Public School Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
 THE NEW GATE,crunchyroll,https://www.crunchyroll.com/pt-br/series/GMEHME7Z1/the-new-gate
 YATAGARASU: The Raven Does Not Choose Its Master,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM92J/yatagarasu-the-raven-does-not-choose-its-master
-GO! GO! Loser Ranger!,starplus,https://www.starplus.com/pt-br/series/go-go-loser-ranger/2VX5fKgeiVEl
-The Fable,starplus,https://www.starplus.com/pt-br/series/the-fable/5lo11H9f2Cg4
+GO! GO! Loser Ranger!,disneyplus,https://www.disneyplus.com/series/go-go-loser-ranger/2VX5fKgeiVEl
+The Fable,disneyplus,https://www.disneyplus.com/series/the-fable/5lo11H9f2Cg4
 Mushoku Tensei: Jobless Reincarnation Season 2 Part 2,crunchyroll,https://www.crunchyroll.com/pt-br/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation
 The Misfit of Demon King Academy II (Cour 2),crunchyroll,https://www.crunchyroll.com/pt-br/series/GY243NN0R/the-misfit-of-demon-king-academy
 TOUKEN RANBU KAI KYODEN,crunchyroll,https://www.crunchyroll.com/pt-br/series/GVDHX85PN/touken-ranbu-kai-kyoden
@@ -2632,4 +2602,17 @@ MEGATON MUSASHI,crunchyroll,https://www.crunchyroll.com/pt-br/series/GP5HJ840X/m
 The Journey,crunchyroll,https://www.crunchyroll.com/pt-br/series/GZJH3DJ2X/the-journey
 Demon Slayer: Kimetsu no Yaiba Hashira Training Arc,crunchyroll,https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba
 My Hero Academia Season 7,crunchyroll,https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia
-Mission: Yozakura Family,starplus,https://www.starplus.com/pt-br/series/mission-yozakura-family/fiCVxc9GZNVm
+Mission: Yozakura Family,disneyplus,https://www.disneyplus.com/series/mission-yozakura-family/fiCVxc9GZNVm
+Code Geass: Rozé of the Recapture,disneyplus,https://www.disneyplus.com/series/code-geass-roze-of-the-recapture/4XHzb6tQBRtd
+Rising Impact,netflix,https://www.netflix.com/title/81563026
+Baki Hanma VS Kengan Ashura,netflix,https://www.netflix.com/title/81648184
+Garouden: The Way of the Lone Wolf,netflix,https://www.netflix.com/title/81215625
+Gunma Chan,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEPP3/gunmachan
+GUNMACHAN Season2,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEPP3/gunmachan
+Love Is Indivisible by Twins,crunchyroll,https://www.crunchyroll.com/pt-br/series/G5PHNM9EJ/love-is-indivisible-by-twins
+PuraOre! ~Pride of Orange~,crunchyroll,https://www.crunchyroll.com/pt-br/series/G3KHEV77Z/puraore-pride-of-orange
+VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream,crunchyroll,https://www.crunchyroll.com/pt-br/series/GDKHZEJ20/vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream
+Black Butler,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
+"Black Butler: His Butler, Performer",crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
+Black Butler II,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
+Black Butler II OVA,crunchyroll,https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler
