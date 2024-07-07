@@ -382,7 +382,7 @@
    "76": {
       "Nome": "Pok\u00e9mon Journeys: The Series",
       "Streaming": "netflix",
-      "Url": "http://www.netflix.com/title/81291575,http://www.netflix.com/title/81193140,https://www.netflix.com/title/81291578"
+      "Url": "http://www.netflix.com/title/81193140,https://www.netflix.com/title/81291578"
    },
    "77": {
       "Nome": "Pok\u00e9mon: To Be a Pok\u00e9mon Master",
@@ -12271,13 +12271,13 @@
    },
    "2454": {
       "Nome": "Road to Ninja: Naruto the Movie",
-      "Streaming": "primevideo",
-      "Url": "https://www.primevideo.com/-/pt/detail/0P38OB8YC61ZJU5C5XJHRIAFS0"
+      "Streaming": "primevideo,netflix",
+      "Url": "https://www.primevideo.com/-/pt/detail/0P38OB8YC61ZJU5C5XJHRIAFS0,https://www.netflix.com/title/80014947"
    },
    "2455": {
       "Nome": "The Last: Naruto the Movie",
-      "Streaming": "primevideo",
-      "Url": "https://www.primevideo.com/-/pt/detail/0SLRBF5CA8YU31PE29TC4D3YFZ"
+      "Streaming": "primevideo,netflix",
+      "Url": "https://www.primevideo.com/-/pt/detail/0SLRBF5CA8YU31PE29TC4D3YFZ,https://www.netflix.com/title/80037677"
    },
    "2456": {
       "Nome": "Saint Seiya: The Heated Battle of the Gods",
@@ -13133,5 +13133,135 @@
       "Nome": "Appleseed Alpha",
       "Streaming": "netflix",
       "Url": "https://www.netflix.com/title/70307393"
+   },
+   "2627": {
+      "Nome": "The Imaginary",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81565710"
+   },
+   "2628": {
+      "Nome": "Boruto: Naruto the Movie",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/80075823"
+   },
+   "2629": {
+      "Nome": "Tasuketsu -Fate of the Majority-",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G4PH0WJMN/tasuketsu-fate-of-the-majority-"
+   },
+   "2630": {
+      "Nome": "Alya Sometimes Hides Her Feelings in Russian",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV0XM/alya-sometimes-hides-her-feelings-in-russian"
+   },
+   "2631": {
+      "Nome": "Twilight Out of Focus",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GMEHME751/twilight-out-of-focus"
+   },
+   "2632": {
+      "Nome": "Ramen Akaneko",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX85ZN/ramen-akaneko"
+   },
+   "2633": {
+      "Nome": "Pseudo Harem",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GKEH2G08K/pseudo-harem"
+   },
+   "2634": {
+      "Nome": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVD3E/failure-frame-i-became-the-strongest-and-annihilated-everything-with-low-level-spells"
+   },
+   "2635": {
+      "Nome": "Senpai is an Otokonoko",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM7WP9/senpai-is-an-otokonoko"
+   },
+   "2636": {
+      "Nome": "Quality Assurance in Another World",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G24H1NW30/quality-assurance-in-another-world"
+   },
+   "2637": {
+      "Nome": "CARDFIGHT!! VANGUARD Divinez Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GXJHM3NJ5/cardfight-vanguard-overdress"
+   },
+   "2638": {
+      "Nome": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GDKHZEJW0/dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools"
+   },
+   "2639": {
+      "Nome": "A Nobody's Way Up to an Exploration Hero",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D8X9/a-nobodys-way-up-to-an-exploration-hero"
+   },
+   "2640": {
+      "Nome": "MONOGATARI Series OFF & MONSTER Season",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN9W2/monogatari-series-off-monster-season"
+   },
+   "2641": {
+      "Nome": "Sakuna: Of Rice and Ruin",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G8DHV78W7/sakuna-of-rice-and-ruin"
+   },
+   "2642": {
+      "Nome": "The Elusive Samurai",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GQWH0M19X/the-elusive-samurai"
+   },
+   "2643": {
+      "Nome": "SHOSHIMIN: How to Become Ordinary",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G5PHNM94J/shoshimin-how-to-become-ordinary"
+   },
+   "2644": {
+      "Nome": "FAIRY TAIL 100 YEARS QUEST",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQED/fairy-tail-100-years-quest"
+   },
+   "2645": {
+      "Nome": "Wistoria: Wand and Sword",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM7WK9/wistoria-wand-and-sword"
+   },
+   "2646": {
+      "Nome": "Tower of God Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6J0G49DR/tower-of-god"
+   },
+   "2647": {
+      "Nome": "My Deer Friend Nokotan",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM100/my-deer-friend-nokotan"
+   },
+   "2648": {
+      "Nome": "Narenare -Cheer for You!-",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GEXH3W2GK/narenare-cheer-for-you-"
+   },
+   "2649": {
+      "Nome": "A Journey Through Another World: Raising Kids While Adventuring",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G79H23ZVX/a-journey-through-another-world-raising-kids-while-adventuring"
+   },
+   "2650": {
+      "Nome": "NieR:Automata Ver1.1a Cour 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKNPW1/nierautomata-ver11a"
+   },
+   "2651": {
+      "Nome": "The Caf\u00e9 Terrace and Its Goddesses Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GQWH0MPQ7/the-caf-terrace-and-its-goddesses"
+   },
+   "2652": {
+      "Nome": "Days with My Stepsister",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM190/days-with-my-stepsister"
    }
 }
