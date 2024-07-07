@@ -13,7 +13,7 @@ const menu_query =
         lastPage,
         hasNextPage
       }
-      media (type: ANIME,isAdult: false, season: SPRING, seasonYear: 2024, sort: SCORE_DESC)
+      media (type: ANIME,isAdult: false, season: SUMMER, seasonYear: 2024, sort: SCORE_DESC)
       {
         episodes
         format
