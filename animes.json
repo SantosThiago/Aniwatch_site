@@ -13200,7 +13200,7 @@
       "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D8X9/a-nobodys-way-up-to-an-exploration-hero"
    },
    "2640": {
-      "Nome": "MONOGATARI Series OFF & MONSTER Season",
+      "Nome": "MONOGATARI Series: OFF & MONSTER Season",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN9W2/monogatari-series-off-monster-season"
    },
@@ -13263,5 +13263,15 @@
       "Nome": "Days with My Stepsister",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM190/days-with-my-stepsister"
+   },
+   "2653": {
+      "Nome": "MAYONAKA PUNCH",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GEXH3W28K/mayonaka-punch"
+   },
+   "2654": {
+      "Nome": "Kinnikuman Perfect Origin Arc",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81781519"
    }
 }
