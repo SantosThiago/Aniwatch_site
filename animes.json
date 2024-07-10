@@ -13236,8 +13236,8 @@
    },
    "2647": {
       "Nome": "My Deer Friend Nokotan",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM100/my-deer-friend-nokotan"
+      "Streaming": "crunchyroll,primevideo",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM100/my-deer-friend-nokotan,https://www.primevideo.com/detail/0S1F67QBD8A9QJ9CYHZYSNM4B2"
    },
    "2648": {
       "Nome": "Narenare -Cheer for You!-",
@@ -13273,5 +13273,20 @@
       "Nome": "Kinnikuman Perfect Origin Arc",
       "Streaming": "netflix",
       "Url": "https://www.netflix.com/title/81781519"
+   },
+   "2655": {
+      "Nome": "The Magical Girl and the Evil Lieutenant Used to Be Archenemies",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QPQ/the-magical-girl-and-the-evil-lieutenant-used-to-be-archenemies"
+   },
+   "2656": {
+      "Nome": "No Longer Allowed in Another World",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GXJHM3G7X/no-longer-allowed-in-another-world"
+   },
+   "2657": {
+      "Nome": "Our Last Crusade or the Rise of a New World Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX8ZD0/our-last-crusade-or-the-rise-of-a-new-world"
    }
 }
