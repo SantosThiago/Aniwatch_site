@@ -561,8 +561,8 @@
    },
    "112": {
       "Nome": "Toradora!",
-      "Streaming": "netflix,crunchyroll",
-      "Url": "http://www.netflix.com/title/80049275,https://www.crunchyroll.com/pt-br/series/G6P8PXJW6/toradora"
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6P8PXJW6/toradora"
    },
    "113": {
       "Nome": "SPRIGGAN (ONA)",
@@ -1086,8 +1086,8 @@
    },
    "217": {
       "Nome": "Darwin's Game",
-      "Streaming": "netflix,crunchyroll",
-      "Url": "http://www.netflix.com/title/81234353,https://www.crunchyroll.com/pt-br/series/G61X24PZ6/darwins-game"
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G61X24PZ6/darwins-game"
    },
    "218": {
       "Nome": "Fate/Apocrypha",
@@ -12086,8 +12086,8 @@
    },
    "2417": {
       "Nome": "The Rising of the Shield Hero Season 3",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G6W4QKX0R/the-rising-of-the-shield-hero"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G6W4QKX0R/the-rising-of-the-shield-hero,https://www.netflix.com/title/81058649"
    },
    "2418": {
       "Nome": "GOBLIN SLAYER II",
@@ -13211,8 +13211,8 @@
    },
    "2642": {
       "Nome": "Sakuna: Of Rice and Ruin",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G8DHV78W7/sakuna-of-rice-and-ruin"
+      "Streaming": "netflix,crunchyroll",
+      "Url": "https://www.netflix.com/br/title/81914001,https://www.crunchyroll.com/pt-br/series/G8DHV78W7/sakuna-of-rice-and-ruin"
    },
    "2643": {
       "Nome": "The Elusive Samurai",
@@ -13333,5 +13333,25 @@
       "Nome": "2.5 Dimensional Seduction",
       "Streaming": "primevideo",
       "Url": "https://www.primevideo.com/detail/0SPIPNBXH5PNATE6J9ZKRSWZ30"
+   },
+   "2667": {
+      "Nome": "True Beauty",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GMEHME741/true-beauty"
+   },
+   "2668": {
+      "Nome": "Delico's Nursery",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GKEH2G04K/delicos-nursery"
+   },
+   "2669": {
+      "Nome": "AKIRA",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/60021103"
+   },
+   "2670": {
+      "Nome": "Ghost in the Shell",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/540533"
    }
 }
