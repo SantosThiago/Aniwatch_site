@@ -2,7 +2,7 @@ var database;
 var submit = document.getElementById('submit');
 const url = 'https://graphql.anilist.co';
 const menu_query =
-  `
+  ` 
   query
   {
     Page (perPage: 48)
