@@ -2,7 +2,7 @@ var database;
 var submit = document.getElementById('submit');
 const url = 'https://graphql.anilist.co';
 const menu_query =
-  `
+  ` 
   query
   {
     Page (perPage: 48)
@@ -13,7 +13,7 @@ const menu_query =
         lastPage,
         hasNextPage
       }
-      media (type: ANIME,isAdult: false, season: SUMMER, seasonYear: 2024, sort: SCORE_DESC)
+      media (type: ANIME,isAdult: false, season: FALL, seasonYear: 2024, sort: SCORE_DESC)
       {
         episodes
         format
