@@ -6441,8 +6441,8 @@
    },
    "1288": {
       "Nome": "MASHLE: MAGIC AND MUSCLES",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GDKHZEP8W/mashle-magic-and-muscles"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GDKHZEP8W/mashle-magic-and-muscles,https://www.netflix.com/title/81685164"
    },
    "1289": {
       "Nome": "Mass Effect: Paragon Lost",
@@ -13630,7 +13630,7 @@
       "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV0W8/girls-band-cry"
    },
    "2726": {
-      "Nome": "Grisaia Phantom Trigger",
+      "Nome": "Grisaia: Phantom Trigger",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM7WWV/grisaia-phantom-trigger"
    },
@@ -13828,5 +13828,50 @@
       "Nome": "Medaka Kuroiwa is Impervious to My Charms",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G4PH0WJJG/medaka-kuroiwa-is-impervious-to-my-charms"
+   },
+   "2766": {
+      "Nome": "OKITSURA: Fell in Love with an Okinawan Girl, but I Just Wish I Know What She's Saying",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G79H23ZZ3/okitsura-fell-in-love-with-an-okinawan-girl-but-i-just-wish-i-know-what-shes-saying"
+   },
+   "2767": {
+      "Nome": "Medalist",
+      "Streaming": "disneyplus",
+      "Url": "https://www.disneyplus.com/pt-br/series/medalist/4LgC0zEd5JEx"
+   },
+   "2768": {
+      "Nome": "I Want to Escape from Princess Lessons",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QQ4/i-want-to-escape-from-princess-lessons"
+   },
+   "2769": {
+      "Nome": "I\u2019m a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV008/im-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic"
+   },
+   "2770": {
+      "Nome": "Honey Lemon Soda",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GMEHME77W/honey-lemon-soda"
+   },
+   "2771": {
+      "Nome": "The Daily Life of a Middle-Aged Online Shopper in Another World",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX855Q/the-daily-life-of-a-middle-aged-online-shopper-in-another-world"
+   },
+   "2772": {
+      "Nome": "Dr. STONE SCIENCE FUTURE",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone"
+   },
+   "2773": {
+      "Nome": "Even Given the Worthless \u201cAppraiser\u201d Class, I\u2019m Actually the Strongest",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN99W/even-given-the-worthless-appraiser-class-im-actually-the-strongest"
+   },
+   "2774": {
+      "Nome": "AQUARION: Myth of Emotions",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVDDD/aquarion-myth-of-emotions"
    }
 }
