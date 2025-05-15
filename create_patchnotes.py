@@ -6,8 +6,12 @@ added_titles={}
 removed_final={}
 added_final={}
 md_file=[]
-removed=subprocess.run('git diff -U0 animes.csv | grep "^-"', shell=True, capture_output=True, text=True).stdout
-added=subprocess.run('git diff -U0 animes.csv | grep "^+"', shell=True, capture_output=True, text=True).stdout
+removed=subprocess.run('git diff -U0 animes.csv | grep "^-"', shell=True, capture_output=True, text=False).stdout
+removed = removed.replace(b'\x9d', b"'")
+removed=removed.decode('utf-8',errors='replace')
+added=subprocess.run('git diff -U0 animes.csv | grep "^+"', shell=True, capture_output=True, text=False).stdout
+added = added.replace(b'\x9d', b"'")
+added=added.decode('utf-8',errors='replace')
 release_num=subprocess.run('git log -1 --pretty="%s" | cut -d "." -f3', shell=True, capture_output=True, text=True).stdout
 release_num=int(release_num)
 new_release_num=release_num+1
@@ -131,10 +135,11 @@ if removed_final != {}:
 md_file.append(f'\n**Full Changelog**: https://github.com/SantosThiago/Aniwatch_site/compare/v1.0.{release_num}...v1.0.{new_release_num}')
 
 try:
-    with open('patchnotes.md', 'w') as file:
+    with open('patchnotes.md', 'w', encoding='utf-8') as file:
         for line in md_file:
             file.write(str(line))
     print('Patchnotes criado com sucesso!')
 
-except:
+except Exception as e:
+    print(e)
     print('Erro na criação do Patchnotes!')
