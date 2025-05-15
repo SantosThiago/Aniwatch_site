@@ -11737,7 +11737,7 @@
    "2347": {
       "Nome": "Sword of the Stranger",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/watch/GKKF3J8VQ/sword-of-the-stranger"
+      "Url": "https://www.crunchyroll.com/pt-br/series/G24H107GQ/sword-of-the-stranger"
    },
    "2348": {
       "Nome": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
@@ -11761,8 +11761,8 @@
    },
    "2352": {
       "Nome": "Frieren: Beyond Journey\u2019s End",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQX4/frieren-beyond-journeys-end"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQX4/frieren-beyond-journeys-end,https://www.netflix.com/title/81726714"
    },
    "2353": {
       "Nome": "I'm in Love with the Villainess",
@@ -12036,8 +12036,8 @@
    },
    "2407": {
       "Nome": "The Apothecary Diaries",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVDJ7/the-apothecary-diaries"
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVDJ7/the-apothecary-diaries,https://www.netflix.com/title/81712068"
    },
    "2408": {
       "Nome": "Origin: Spirits of the Past",
@@ -13206,8 +13206,8 @@
    },
    "2641": {
       "Nome": "2.5 Dimensional Seduction",
-      "Streaming": "primevideo",
-      "Url": "https://www.primevideo.com/detail/0SPIPNBXH5PNATE6J9ZKRSWZ30"
+      "Streaming": "primevideo,netflix",
+      "Url": "https://www.primevideo.com/detail/0SPIPNBXH5PNATE6J9ZKRSWZ30,https://www.netflix.com/title/81909977"
    },
    "2642": {
       "Nome": "True Beauty",
@@ -13552,7 +13552,7 @@
    "2710": {
       "Nome": "Dragon Ball DAIMA",
       "Streaming": "crunchyroll,netflix",
-      "Url": "https://www.crunchyroll.com/series/GG5H5XQ35/dragon-ball-daima,https://www.netflix.com/title/81943491"
+      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQ35/dragon-ball-daima,https://www.netflix.com/title/81943491"
    },
    "2711": {
       "Nome": "Hunter x Hunter: Phantom Rouge",
@@ -13746,8 +13746,8 @@
    },
    "2749": {
       "Nome": "BEYBLADE X",
-      "Streaming": "netflix",
-      "Url": "https://www.netflix.com/title/81924739"
+      "Streaming": "netflix,disneyplus",
+      "Url": "https://www.netflix.com/title/81924739,https://www.disneyplus.com/pt-br/browse/entity-9ab37ad5-5efd-40bb-a1a5-35e87085a4bf"
    },
    "2750": {
       "Nome": "InuYasha: The Final Act",
@@ -13845,33 +13845,393 @@
       "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QQ4/i-want-to-escape-from-princess-lessons"
    },
    "2769": {
-      "Nome": "I\u2019m a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic",
-      "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV008/im-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic"
-   },
-   "2770": {
       "Nome": "Honey Lemon Soda",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GMEHME77W/honey-lemon-soda"
    },
-   "2771": {
+   "2770": {
       "Nome": "The Daily Life of a Middle-Aged Online Shopper in Another World",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX855Q/the-daily-life-of-a-middle-aged-online-shopper-in-another-world"
    },
-   "2772": {
+   "2771": {
       "Nome": "Dr. STONE SCIENCE FUTURE",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/GYEXQKJG6/dr-stone"
    },
-   "2773": {
+   "2772": {
       "Nome": "Even Given the Worthless \u201cAppraiser\u201d Class, I\u2019m Actually the Strongest",
       "Streaming": "crunchyroll",
-      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN99W/even-given-the-worthless-appraiser-class-im-actually-the-strongest"
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN99W/even-given-the-worthless-appraiser-class--im-actually-the-strongest"
    },
-   "2774": {
+   "2773": {
       "Nome": "AQUARION: Myth of Emotions",
       "Streaming": "crunchyroll",
       "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVDDD/aquarion-myth-of-emotions"
+   },
+   "2774": {
+      "Nome": "The Apothecary Diaries Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVDJ7/the-apothecary-diaries"
+   },
+   "2775": {
+      "Nome": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you"
+   },
+   "2776": {
+      "Nome": "Toilet-bound Hanako-kun Season 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G24H1N3ZP/toilet-bound-hanako-kun"
+   },
+   "2777": {
+      "Nome": "SK8 the Infinity EXTRA PART",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G5PHNM434/sk8-the-infinity"
+   },
+   "2778": {
+      "Nome": "My Happy Marriage Season 2",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81564905"
+   },
+   "2779": {
+      "Nome": "SAKAMOTO DAYS",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81663325"
+   },
+   "2780": {
+      "Nome": "You and Idol Precure \u266a",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GDKHZEJJQ/you-and-idol-precure-"
+   },
+   "2781": {
+      "Nome": "Witchy Precure!! ~MIRAI DAYS~",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D881/witchy-precure-mirai-days"
+   },
+   "2782": {
+      "Nome": "Welcome to Japan, Ms. Elf!",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G24H1NWWE/welcome-to-japan-ms-elf"
+   },
+   "2783": {
+      "Nome": "ISHURA Season 2",
+      "Streaming": "disneyplus",
+      "Url": "https://www.disneyplus.com/pt-br/browse/entity-5688fe7b-a605-4858-90a1-e013ef1c94b3"
+   },
+   "2784": {
+      "Nome": "Unnamed Memory Act.2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QXQ/unnamed-memory"
+   },
+   "2785": {
+      "Nome": "The Red Ranger Becomes an Adventurer in Another World",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G8DHV788M/the-red-ranger-becomes-an-adventurer-in-another-world"
+   },
+   "2786": {
+      "Nome": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GKEH2G004/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths"
+   },
+   "2787": {
+      "Nome": "Kinnikuman Perfect Origin Arc Season 2",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81781519"
+   },
+   "2788": {
+      "Nome": "Babanba Banban Vampire",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81949674"
+   },
+   "2789": {
+      "Nome": "UniteUp! -Uni:Birth-",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GJ0H7Q5J9/uniteup"
+   },
+   "2790": {
+      "Nome": "#COMPASS2.0 ANIMATION PROJECT",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GEXH3W29Z/compass20-animation-project"
+   },
+   "2791": {
+      "Nome": "Anne Shirley",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G8DHV78XM/anne-shirley"
+   },
+   "2792": {
+      "Nome": "Anyway, I'm Falling in Love with You.",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GJ0H7QGGM/anyway-im-falling-in-love-with-you"
+   },
+   "2793": {
+      "Nome": "Bartender",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D0J2/bartender"
+   },
+   "2794": {
+      "Nome": "Can a Boy-Girl Friendship Survive?",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV0D8/can-a-boy-girl-friendship-survive"
+   },
+   "2795": {
+      "Nome": "Catch Me at the Ballpark!",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX85EQ/catch-me-at-the-ballpark"
+   },
+   "2796": {
+      "Nome": "Classic\u2605Stars",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GDKHZEJKQ/classicstars"
+   },
+   "2797": {
+      "Nome": "Digimon Adventure",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GVDHX83V7/digimon-adventure"
+   },
+   "2798": {
+      "Nome": "Digimon Adventure 02",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GR1XHVEZQ/digimon-adventure-02"
+   },
+   "2799": {
+      "Nome": "Digimon Frontier",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVD7E/digimon-frontier"
+   },
+   "2800": {
+      "Nome": "Digimon Tamers",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GYJ0HW59G/digimon-tamers"
+   },
+   "2801": {
+      "Nome": "Fafner THE BEYOND",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QJ4/fafner-the-beyond"
+   },
+   "2802": {
+      "Nome": "Fafner THE BEYOND Part 2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QJ4/fafner-the-beyond"
+   },
+   "2803": {
+      "Nome": "Fafner THE BEYOND Part 3",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QJ4/fafner-the-beyond"
+   },
+   "2804": {
+      "Nome": "Fafner THE BEYOND Part 4",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G9VHN9QJ4/fafner-the-beyond"
+   },
+   "2805": {
+      "Nome": "Farmagia",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GP5HJ8447/farmagia"
+   },
+   "2806": {
+      "Nome": "GUILTY GEAR STRIVE: DUAL RULERS",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GEXH3W2MZ/guilty-gear-strive-dual-rulers"
+   },
+   "2807": {
+      "Nome": "Clockwork Fighters Hiwou's War",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM1PX/hiwou-war-chronicles"
+   },
+   "2808": {
+      "Nome": "I'm the Evil Lord of an Intergalactic Empire!",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G79H23ZE3/im-the-evil-lord-of-an-intergalactic-empire"
+   },
+   "2809": {
+      "Nome": "KOWLOON GENERIC ROMANCE",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GZJH3D8K1/kowloon-generic-romance"
+   },
+   "2810": {
+      "Nome": "Maebashi Witches",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GW4HM7W1V/maebashi-witches"
+   },
+   "2811": {
+      "Nome": "Aquatic Language",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GRJ0HK77Z/mizu-no-kotoba"
+   },
+   "2812": {
+      "Nome": "My Hero Academia: Vigilantes",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G79H23ZQ3/my-hero-academia-vigilantes"
+   },
+   "2813": {
+      "Nome": "Once Upon a Witch's Death",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GMEHME72W/once-upon-a-witchs-death"
+   },
+   "2814": {
+      "Nome": "Please Put Them On, Takamine-san",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G3KHEVD1D/please-put-them-on-takamine-san"
+   },
+   "2815": {
+      "Nome": "Summer Pockets",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G0XHWM17X/summer-pockets"
+   },
+   "2816": {
+      "Nome": "Teogonia",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GXJHM3GX8/teogonia"
+   },
+   "2817": {
+      "Nome": "The Beginning After the End",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G24H1NWKE/the-beginning-after-the-end"
+   },
+   "2818": {
+      "Nome": "The Brilliant Healer's New Life in the Shadows",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G4PH0WJ9G/the-brilliant-healers-new-life-in-the-shadows"
+   },
+   "2819": {
+      "Nome": "The Gorilla God\u2019s Go-To Girl",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl"
+   },
+   "2820": {
+      "Nome": "The King's Avatar",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GQWH0M113/the-kings-avatar"
+   },
+   "2821": {
+      "Nome": "The King's Avatar S2",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GQWH0M113/the-kings-avatar"
+   },
+   "2822": {
+      "Nome": "The Too-Perfect Saint: Tossed Aside by My Fianc\u00e9 and Sold to Another Kingdom",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GP5HJ8477/the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom"
+   },
+   "2823": {
+      "Nome": "The Unaware Atelier Meister",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GKEH2G0J4/the-unaware-atelier-meister"
+   },
+   "2824": {
+      "Nome": "To Be Hero X",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GQWH0M1J3/to-be-hero-x"
+   },
+   "2825": {
+      "Nome": "Trapezium",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G5PHNM990/trapezium"
+   },
+   "2826": {
+      "Nome": "WITCH WATCH",
+      "Streaming": "crunchyroll,netflix",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G5PHNM9P0/witch-watch,https://www.netflix.com/title/81991687"
+   },
+   "2827": {
+      "Nome": "ZatsuTabi -That's Journey-",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQ85/zatsutabi--thats-journey-"
+   },
+   "2828": {
+      "Nome": "Lazarus",
+      "Streaming": "max",
+      "Url": "https://play.max.com/show/7479ef42-c1ac-4473-854e-5a5c35894e35"
+   },
+   "2829": {
+      "Nome": "From Old Country Bumpkin to Master Swordsman",
+      "Streaming": "primevideo",
+      "Url": "https://www.primevideo.com/detail/0GMSR5WMNJ6EMYQRQ6Y2587WAF"
+   },
+   "2830": {
+      "Nome": "Sentai Daishikkaku 2nd Season",
+      "Streaming": "disneyplus",
+      "Url": "https://www.disneyplus.com/pt-br/browse/entity-f3a712f6-b358-4b21-b28a-221f23e0eb48"
+   },
+   "2831": {
+      "Nome": "Mobile Suit Gundam GQuuuuuuX",
+      "Streaming": "primevideo",
+      "Url": "https://www.primevideo.com/detail/0KFD79CBVX90IWRIG5NLAGJ7R1"
+   },
+   "2832": {
+      "Nome": "Moonrise",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81251383"
+   },
+   "2833": {
+      "Nome": "YAIBA: Samurai Legend",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/82030192"
+   },
+   "2834": {
+      "Nome": "The Dinner Table Detective",
+      "Streaming": "primevideo",
+      "Url": "https://www.primevideo.com/detail/0TKRFV2FB8U18G5WS16GFOXNG2"
+   },
+   "2835": {
+      "Nome": "A Ninja and an Assassin Under One Roof",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN9EW/a-ninja-and-an-assassin-under-one-roof"
+   },
+   "2836": {
+      "Nome": "Teogonia",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GXJHM3GX8/teogonia"
+   },
+   "2837": {
+      "Nome": "mono",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV0N8/mono"
+   },
+   "2838": {
+      "Nome": "Go! Go! Loser Ranger! Season 2",
+      "Streaming": "disneyplus",
+      "Url": "https://www.disneyplus.com/pt-br/series/go-go-loser-ranger/2VX5fKgeiVEl"
+   },
+   "2839": {
+      "Nome": "Food for the Soul",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GJ0H7QGZM/food-for-the-soul"
+   },
+   "2840": {
+      "Nome": "Lycoris Recoil -Friends are thieves of time.-",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/G1XHJV2X9/lycoris-recoil"
+   },
+   "2841": {
+      "Nome": "SHIROHIYO - Reincarnated as a Neglected Noble: Raising My Baby Brother With Memories From My Past Life",
+      "Streaming": "crunchyroll",
+      "Url": "https://www.crunchyroll.com/pt-br/series/GNVHKN9QW/shirohiyo---reincarnated-as-a-neglected-noble-raising-my-baby-brother-with-memories-from-my-past-life"
+   },
+   "2842": {
+      "Nome": "Lost in Starlight",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81664623"
+   },
+   "2843": {
+      "Nome": "Gag Manga Biyori GO",
+      "Streaming": "primevideo",
+      "Url": "https://www.primevideo.com/detail/0GK5354XPWOZII3IXPIXNITYHR"
+   },
+   "2844": {
+      "Nome": "The Rose of Versailles",
+      "Streaming": "netflix",
+      "Url": "https://www.netflix.com/title/81177638"
+   },
+   "2845": {
+      "Nome": "Umamusume: Cinderella Gray",
+      "Streaming": "primevideo",
+      "Url": "https://www.primevideo.com/detail/0K6S3ADL4O8MDCRV79NL5OOMVD"
+   },
+   "2846": {
+      "Nome": "\u00dcbel Blatt",
+      "Streaming": "primevideo",
+      "Url": "https://www.primevideo.com/detail/0TRGLGKLJS99OYM9647IM6Y1N0"
    }
 }
